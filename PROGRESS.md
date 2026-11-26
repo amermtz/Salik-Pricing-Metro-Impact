@@ -3,31 +3,37 @@
 _Last updated: 2026-11-26_
 
 ## Current stage
-**Stage 1: Repo, download and aggregation.** Code done and tested, waiting on
-data access.
+**Stage 3 done: analysis plan written in `config.yaml`.** It must be committed
+on its own before Stage 4 starts.
+
+## Key decision
+Real 2025 Metro ridership is not available on Dubai Pulse, so the project is a
+**simulation study**: synthetic data with a planted +5% effect, and a test of
+whether the methods recover it. This is stated in the README, the memo and the
+CV bullet.
 
 ## Done
-- [x] Repo layout, `.gitignore`, `requirements.txt`, MIT `LICENSE`
-- [x] `scripts/download_and_aggregate.py`: resumable, one day at a time, deletes raw after processing, manifest with per-day stats
-- [x] `scripts/check_data.py`: missing days, drops/spikes, station name changes
-- [x] Tests: 9 passing on synthetic data
-- [x] `data/events.csv` header (columns: type, name, dates, source URL, verified)
+- [x] Stage 1: repo, resumable pipeline, data checks, simulator
+  - 365 simulated days, 134.4M trips, 8.5 MB of parquet
+  - The pipeline reproduces the simulator's counts exactly on a trip-level raw file
+  - The checks find all planted problems: missing day, outage, station rename, holidays
+- [x] Stage 2: OD labels (674 of 1,260 pairs toll-substituting), folium and PNG maps
+- [x] Stage 3: `config.yaml` (windows, models, thresholds, headline)
+- [x] Tests: 15 passing
 
 ## Next steps
-1. Get Dubai Pulse access: metro ridership, metro stations, Salik gate locations.
-2. Check Dubai Pulse terms of use: may aggregated data be published in a public repo?
-3. Download one day, run `inspect`, fill in `schema.yaml` (especially date/time formats).
-4. Run the full download for 2024-07-01 to 2025-06-30.
-5. Run `check_data.py`; log findings in DEVLOG.
-6. Fill in `data/events.csv` from official sources (gate opening dates, Ramadan 2025, holidays, school terms, parking tariff change, disruptions).
+1. YOU: commit Stages 1–2, then commit `config.yaml` on its own.
+2. Optional: Mohammed reviews `report/figures/od_map.html`.
+3. Stage 4: ITS, DiD + event study, triple difference, counterfactual, placebos.
+4. Stage 5: memo, figures, final README with the recovered estimate.
 
-## Blocked on
-- Dubai Pulse data access
-- Mohammed: map review (Stage 2, later)
+## Open review items
+- Long diagonal pairs (e.g. UAE Exchange to Etisalat/Centrepoint) are labelled control.
+  This is plausible, since the car route can avoid gates, but needs the map review.
 
 ## Stages
-- [ ] 1. Repo, download and aggregation
-- [ ] 2. Label OD pairs (+ Mohammed's map review)
-- [ ] 3. Fix windows in `config.yaml`, committed before analysis
-- [ ] 4. Analysis: ITS, DiD + event study, triple difference, counterfactual, placebos
+- [x] 1. Repo, data and checks
+- [x] 2. Label OD pairs (review pending)
+- [x] 3. Fix windows in `config.yaml` (commit pending)
+- [ ] 4. Analysis
 - [ ] 5. Memo and README

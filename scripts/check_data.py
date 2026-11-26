@@ -96,6 +96,55 @@ def anomalies(daily: pd.DataFrame) -> pd.DataFrame:
     return flag[["date", "trips", "ref_median", "ratio", "kind"]]
 
 
+def station_anomalies(out_dir: Path, low: float = 0.5) -> pd.DataFrame:
+    """Station-days far below the station's same-weekday median of the previous
+    4 weeks. Catches partial outages that barely move the network total."""
+    glob = str(out_dir / "od_hourly" / "*.parquet").replace("\\", "/")
+    con = duckdb.connect()
+    try:
+        df = con.execute(
+            f"""
+            WITH s AS (
+                SELECT origin AS station, date, trips FROM read_parquet('{glob}')
+                UNION ALL
+                SELECT destination, date, trips FROM read_parquet('{glob}')
+            ),
+            d AS (SELECT station, date, sum(trips) AS trips FROM s GROUP BY ALL),
+            r AS (
+                SELECT a.station, a.date, a.trips,
+                       median(b.trips) AS ref_median, count(b.trips) AS n_ref
+                FROM d a JOIN d b
+                  ON a.station = b.station
+                 AND b.date IN (a.date - INTERVAL 7 DAY, a.date - INTERVAL 14 DAY,
+                                a.date - INTERVAL 21 DAY, a.date - INTERVAL 28 DAY)
+                GROUP BY ALL
+            )
+            SELECT date, station, trips, ref_median, trips / ref_median AS ratio
+            FROM r WHERE n_ref >= 2 AND trips < {low} * ref_median
+            ORDER BY date, station
+            """
+        ).df()
+    finally:
+        con.close()
+    df["date"] = pd.to_datetime(df["date"]).dt.date
+    return df
+
+
+def tag_events(dates: pd.Series, events_path: Path) -> pd.Series:
+    """Name any events.csv event covering each date (to explain flagged days)."""
+    if not events_path.exists():
+        return pd.Series("", index=dates.index)
+    ev = pd.read_csv(events_path, parse_dates=["start_date", "end_date"])
+    ev["end_date"] = ev["end_date"].fillna(ev["start_date"])
+
+    def names(d):
+        t = pd.Timestamp(d)
+        hit = ev[(ev.start_date <= t) & (ev.end_date >= t)]
+        return "; ".join(hit.name)
+
+    return dates.map(names)
+
+
 def station_changes(stations: pd.DataFrame, start: dt.date, end: dt.date,
                     slack_days: int = 7) -> pd.DataFrame:
     late = stations["first_seen"] > start + dt.timedelta(days=slack_days)
@@ -126,9 +175,20 @@ def main(argv: list[str] | None = None) -> None:
         columns=["file_date", "status"])
     daily, stations = load_daily(a.out_dir)
 
+    events_path = REPO / "data" / "events.csv"
     miss = missing_days(manifest, daily, a.start, a.end)
     anom = anomalies(daily)
+    anom["events"] = tag_events(anom["date"], events_path)
+    st_anom = station_anomalies(a.out_dir)
     chg = station_changes(stations, a.start, a.end)
+    # Renamed stations look like a total collapse on the first day; drop those.
+    st_anom = st_anom[~st_anom.station.isin(chg.station)]
+    st_days = (st_anom.groupby("date")
+               .agg(n_stations=("station", "size"),
+                    stations=("station", lambda s: ", ".join(sorted(s))),
+                    median_ratio=("ratio", "median"))
+               .reset_index())
+    st_days["events"] = tag_events(st_days["date"], events_path)
     total = daily["trips"].sum()
     same = daily["same_station"].sum()
 
@@ -143,7 +203,10 @@ def main(argv: list[str] | None = None) -> None:
         f"- Same-station trips: {int(same):,} ({same / total:.2%} of trips)" if total else
         "- Same-station trips: n/a",
         f"- Missing or failed days: {len(miss)}",
-        f"- Flagged drops/spikes: {len(anom)}",
+        f"- Flagged network drops/spikes: {len(anom)} "
+        f"({(anom['events'] == '').sum()} not explained by events.csv)",
+        f"- Days with station-level drops (<50%): {len(st_days)} "
+        f"({(st_days['events'] == '').sum()} not explained by events.csv)",
         f"- Stations appearing late or disappearing early: {len(chg)}\n",
         "## 1. Missing days\n", to_md(miss),
         f"## 2. Drops and spikes (vs same-weekday median of previous 4 weeks; "
@@ -151,10 +214,13 @@ def main(argv: list[str] | None = None) -> None:
         "Check each against events.csv (holidays, Ramadan, disruptions) before "
         "deciding whether to exclude it.\n",
         to_md(anom),
-        "## 3. Station name changes (possible renames)\n", to_md(chg),
+        "## 3. Station-level drops (station below 50% of its same-weekday median)\n",
+        "Partial outages can hide in the network total. One row per day.\n",
+        to_md(st_days),
+        "## 4. Station name changes (possible renames)\n", to_md(chg),
     ]
     a.report.write_text("\n".join(text), encoding="utf-8")
-    print("\n".join(text[:11]))
+    print("\n".join(text[:12]))
     print(f"\nFull report: {a.report}")
 
 

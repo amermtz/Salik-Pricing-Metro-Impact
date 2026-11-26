@@ -1,0 +1,47 @@
+# Parameters of the SIMULATED world (the "ground truth").
+#
+# The analysis code never reads this file. It is used only by
+# scripts/simulate_ridership.py to generate data, and by the final recovery
+# check, which compares estimates with the planted effect.
+
+seed: 20250131
+start: 2024-07-01
+end: 2025-06-30
+daily_trips: 450000          # weekday network total for this station subset, before multipliers
+
+# ---- The planted causal effect --------------------------------------------
+pricing_date: 2025-01-31
+effect:
+  toll_peak: 0.05            # +5% on toll-substituting pairs at priced weekday peak hours
+  toll_offpeak: 0.0          # no effect off-peak
+  control: 0.0               # no effect on pairs that cross no gate
+
+# ---- Confounders (traps a weak design falls into) -----------------------
+new_gates:
+  date: 2024-11-24
+  effect: 0.03               # +3% all hours on pairs crossing a newly opened gate
+parking:
+  date: 2025-04-04
+  effect: 0.04               # +4% at peak on trips ending at CBD stations
+trend_per_year: 0.06         # network-wide growth (+6% per year)
+summer_dip: 0.12             # mid-summer ridership 12% lower
+school_holiday_peak: -0.10   # weekday peak trips 10% lower in school holidays
+ramadan_level: -0.08         # Ramadan days 8% lower overall (and different hour profile)
+
+# ---- Noise ------------------------------------------------------------------
+daily_shock_sd: 0.03         # common day-level shock (weather, events)
+od_trend_sd: 0.02            # per-pair linear drift, sd per year (mild non-parallel trends)
+od_day_sd: 0.04              # pair x day shock
+cell_dispersion: 40          # gamma shape for pair x day x hour over-dispersion
+
+# ---- Data problems for the checks to find --------------------------------
+missing_days: [2024-07-23]
+outage:
+  date: 2024-10-15
+  stations: [Onpassive, Equiti, Mall of the Emirates, Mashreq, Dubai Internet City,
+             Sobha Realty, DMCC, UAE Exchange]
+  factor: 0.25               # trips touching these stations fall to 25%
+renamed_station:
+  old: Sharaf DG
+  new: Sharaf DG Metro
+  date: 2025-05-01

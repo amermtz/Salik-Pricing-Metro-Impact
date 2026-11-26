@@ -1,0 +1,10 @@
+gate,lat,lon,road_bearing_deg,screen_length_m,opened,road
+Al Barsha,25.1180,55.1955,40,3000,2007-07-01,Sheikh Zayed Road
+Al Safa,25.1780,55.2480,40,3000,2008-09-01,Sheikh Zayed Road
+Al Safa South,25.1640,55.2365,40,3000,2024-11-24,Sheikh Zayed Road
+Jebel Ali,25.0300,55.1178,27,3000,2018-01-01,Sheikh Zayed Road
+Al Maktoum Bridge,25.2575,55.3140,45,2000,2007-07-01,Al Maktoum Bridge
+Al Garhoud Bridge,25.2290,55.3440,50,2000,2007-07-01,Al Garhoud Bridge
+Business Bay,25.1860,55.2850,60,1500,2024-11-24,Al Khail Road
+Airport Tunnel,25.2590,55.3610,0,1500,2008-09-01,Airport Tunnel
+Al Mamzar,25.2950,55.3500,30,1500,2013-04-01,Al Ittihad Road

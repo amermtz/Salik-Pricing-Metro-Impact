@@ -1,0 +1,1261 @@
+origin,destination,distance_km,gates_crossed,n_gates,toll_substituting,crosses_new_gate
+Centrepoint,Emirates,2.89,,0,0,0
+Centrepoint,Airport Terminal 3,4.43,,0,0,0
+Centrepoint,Airport Terminal 1,5.13,,0,0,0
+Centrepoint,GGICO,5.84,,0,0,0
+Centrepoint,Deira City Centre,6.75,,0,0,0
+Centrepoint,Union,8.7,,0,0,0
+Centrepoint,BurJuman,9.23,,0,0,0
+Centrepoint,ADCB,9.49,,0,0,0
+Centrepoint,Max,10.03,Al Garhoud Bridge,1,1,0
+Centrepoint,World Trade Centre,10.72,Al Garhoud Bridge,1,1,0
+Centrepoint,Emirates Towers,11.35,Al Garhoud Bridge,1,1,0
+Centrepoint,Financial Centre,11.88,Al Garhoud Bridge,1,1,0
+Centrepoint,Burj Khalifa/Dubai Mall,12.69,,0,0,0
+Centrepoint,Business Bay,13.93,,0,0,0
+Centrepoint,Onpassive,18.42,Al Safa|Al Safa South|Business Bay,3,1,1
+Centrepoint,Equiti,19.93,Al Safa South,1,1,1
+Centrepoint,Mall of the Emirates,22.75,,0,0,0
+Centrepoint,Mashreq,23.93,Al Barsha,1,1,0
+Centrepoint,Dubai Internet City,26.18,Al Barsha,1,1,0
+Centrepoint,Sobha Realty,28.46,Al Barsha,1,1,0
+Centrepoint,DMCC,31.02,Al Barsha,1,1,0
+Centrepoint,UAE Exchange,41.25,,0,0,0
+Centrepoint,Etisalat,2.87,,0,0,0
+Centrepoint,Al Qusais,3.62,,0,0,0
+Centrepoint,Al Nahda,5.18,,0,0,0
+Centrepoint,Abu Hail,6.72,Airport Tunnel,1,1,0
+Centrepoint,Salah Al Din,7.96,,0,0,0
+Centrepoint,Baniyas Square,9.38,,0,0,0
+Centrepoint,Al Ras,10.67,Al Maktoum Bridge,1,1,0
+Centrepoint,Al Ghubaiba,10.96,Al Maktoum Bridge,1,1,0
+Centrepoint,Sharaf DG,9.98,Al Maktoum Bridge,1,1,0
+Centrepoint,Oud Metha,7.65,,0,0,0
+Centrepoint,Dubai Healthcare City,6.83,Al Garhoud Bridge,1,1,0
+Centrepoint,Al Jadaf,5.86,Al Garhoud Bridge,1,1,0
+Centrepoint,Creek,5.43,,0,0,0
+Emirates,Centrepoint,2.89,,0,0,0
+Emirates,Airport Terminal 3,1.54,,0,0,0
+Emirates,Airport Terminal 1,2.24,,0,0,0
+Emirates,GGICO,2.96,,0,0,0
+Emirates,Deira City Centre,3.86,,0,0,0
+Emirates,Union,5.81,,0,0,0
+Emirates,BurJuman,6.39,,0,0,0
+Emirates,ADCB,6.75,,0,0,0
+Emirates,Max,7.46,,0,0,0
+Emirates,World Trade Centre,8.28,Al Garhoud Bridge,1,1,0
+Emirates,Emirates Towers,9.03,Al Garhoud Bridge,1,1,0
+Emirates,Financial Centre,9.66,Al Garhoud Bridge,1,1,0
+Emirates,Burj Khalifa/Dubai Mall,10.62,Al Garhoud Bridge,1,1,0
+Emirates,Business Bay,11.98,Al Garhoud Bridge,1,1,0
+Emirates,Onpassive,16.78,Al Safa|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Emirates,Equiti,18.4,Al Safa South|Al Garhoud Bridge|Business Bay,3,1,1
+Emirates,Mall of the Emirates,21.31,Al Safa South|Al Garhoud Bridge|Business Bay,3,1,1
+Emirates,Mashreq,22.5,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Emirates,Dubai Internet City,24.77,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Emirates,Sobha Realty,27.06,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Emirates,DMCC,29.66,Al Barsha|Al Garhoud Bridge|Business Bay,3,1,1
+Emirates,UAE Exchange,40.24,Al Garhoud Bridge,1,1,0
+Emirates,Etisalat,3.94,,0,0,0
+Emirates,Al Qusais,3.27,,0,0,0
+Emirates,Al Nahda,3.48,Airport Tunnel,1,1,0
+Emirates,Abu Hail,4.22,Airport Tunnel,1,1,0
+Emirates,Salah Al Din,5.12,,0,0,0
+Emirates,Baniyas Square,6.5,,0,0,0
+Emirates,Al Ras,7.79,Al Maktoum Bridge,1,1,0
+Emirates,Al Ghubaiba,8.08,Al Maktoum Bridge,1,1,0
+Emirates,Sharaf DG,7.12,Al Maktoum Bridge,1,1,0
+Emirates,Oud Metha,4.93,,0,0,0
+Emirates,Dubai Healthcare City,4.38,Al Garhoud Bridge,1,1,0
+Emirates,Al Jadaf,3.68,Al Garhoud Bridge,1,1,0
+Emirates,Creek,3.63,Al Garhoud Bridge,1,1,0
+Airport Terminal 3,Centrepoint,4.43,,0,0,0
+Airport Terminal 3,Emirates,1.54,,0,0,0
+Airport Terminal 3,Airport Terminal 1,0.79,,0,0,0
+Airport Terminal 3,GGICO,1.42,,0,0,0
+Airport Terminal 3,Deira City Centre,2.35,,0,0,0
+Airport Terminal 3,Union,4.27,,0,0,0
+Airport Terminal 3,BurJuman,4.94,Al Maktoum Bridge,1,1,0
+Airport Terminal 3,ADCB,5.44,,0,0,0
+Airport Terminal 3,Max,6.31,,0,0,0
+Airport Terminal 3,World Trade Centre,7.24,,0,0,0
+Airport Terminal 3,Emirates Towers,8.09,,0,0,0
+Airport Terminal 3,Financial Centre,8.78,,0,0,0
+Airport Terminal 3,Burj Khalifa/Dubai Mall,9.84,,0,0,0
+Airport Terminal 3,Business Bay,11.26,,0,0,0
+Airport Terminal 3,Onpassive,16.21,Al Safa|Al Safa South,2,1,1
+Airport Terminal 3,Equiti,17.89,Al Safa|Al Safa South|Business Bay,3,1,1
+Airport Terminal 3,Mall of the Emirates,20.83,Al Safa|Al Safa South|Business Bay,3,1,1
+Airport Terminal 3,Mashreq,22.01,Al Barsha|Al Safa|Al Safa South|Business Bay,4,1,1
+Airport Terminal 3,Dubai Internet City,24.28,Al Barsha|Al Safa|Al Safa South|Business Bay,4,1,1
+Airport Terminal 3,Sobha Realty,26.56,Al Barsha|Al Safa|Al Safa South|Business Bay,4,1,1
+Airport Terminal 3,DMCC,29.18,Al Barsha|Al Safa|Al Safa South|Business Bay,4,1,1
+Airport Terminal 3,UAE Exchange,39.94,Al Garhoud Bridge|Business Bay,2,1,1
+Airport Terminal 3,Etisalat,5.02,,0,0,0
+Airport Terminal 3,Al Qusais,3.9,,0,0,0
+Airport Terminal 3,Al Nahda,3.16,Airport Tunnel,1,1,0
+Airport Terminal 3,Abu Hail,3.02,,0,0,0
+Airport Terminal 3,Salah Al Din,3.59,,0,0,0
+Airport Terminal 3,Baniyas Square,4.96,,0,0,0
+Airport Terminal 3,Al Ras,6.27,,0,0,0
+Airport Terminal 3,Al Ghubaiba,6.58,Al Maktoum Bridge,1,1,0
+Airport Terminal 3,Sharaf DG,5.65,Al Maktoum Bridge,1,1,0
+Airport Terminal 3,Oud Metha,3.68,,0,0,0
+Airport Terminal 3,Dubai Healthcare City,3.51,,0,0,0
+Airport Terminal 3,Al Jadaf,3.21,Al Garhoud Bridge,1,1,0
+Airport Terminal 3,Creek,3.53,Al Garhoud Bridge,1,1,0
+Airport Terminal 1,Centrepoint,5.13,,0,0,0
+Airport Terminal 1,Emirates,2.24,,0,0,0
+Airport Terminal 1,Airport Terminal 3,0.79,,0,0,0
+Airport Terminal 1,GGICO,0.8,,0,0,0
+Airport Terminal 1,Deira City Centre,1.62,,0,0,0
+Airport Terminal 1,Union,3.61,,0,0,0
+Airport Terminal 1,BurJuman,4.17,Al Maktoum Bridge,1,1,0
+Airport Terminal 1,ADCB,4.65,,0,0,0
+Airport Terminal 1,Max,5.55,,0,0,0
+Airport Terminal 1,World Trade Centre,6.51,,0,0,0
+Airport Terminal 1,Emirates Towers,7.37,,0,0,0
+Airport Terminal 1,Financial Centre,8.08,,0,0,0
+Airport Terminal 1,Burj Khalifa/Dubai Mall,9.17,,0,0,0
+Airport Terminal 1,Business Bay,10.61,,0,0,0
+Airport Terminal 1,Onpassive,15.6,Al Safa|Al Safa South,2,1,1
+Airport Terminal 1,Equiti,17.29,Al Safa|Al Safa South,2,1,1
+Airport Terminal 1,Mall of the Emirates,20.24,Al Safa|Al Safa South,2,1,1
+Airport Terminal 1,Mashreq,21.42,Al Barsha|Al Safa|Al Safa South,3,1,1
+Airport Terminal 1,Dubai Internet City,23.68,Al Barsha|Al Safa|Al Safa South,3,1,1
+Airport Terminal 1,Sobha Realty,25.96,Al Barsha|Al Safa|Al Safa South,3,1,1
+Airport Terminal 1,DMCC,28.59,Al Barsha|Al Safa|Al Safa South,3,1,1
+Airport Terminal 1,UAE Exchange,39.41,Business Bay,1,1,1
+Airport Terminal 1,Etisalat,5.8,,0,0,0
+Airport Terminal 1,Al Qusais,4.64,,0,0,0
+Airport Terminal 1,Al Nahda,3.66,Airport Tunnel,1,1,0
+Airport Terminal 1,Abu Hail,3.0,,0,0,0
+Airport Terminal 1,Salah Al Din,3.06,,0,0,0
+Airport Terminal 1,Baniyas Square,4.29,,0,0,0
+Airport Terminal 1,Al Ras,5.54,Al Maktoum Bridge,1,1,0
+Airport Terminal 1,Al Ghubaiba,5.84,Al Maktoum Bridge,1,1,0
+Airport Terminal 1,Sharaf DG,4.88,Al Maktoum Bridge,1,1,0
+Airport Terminal 1,Oud Metha,2.91,,0,0,0
+Airport Terminal 1,Dubai Healthcare City,2.88,,0,0,0
+Airport Terminal 1,Al Jadaf,2.8,Al Garhoud Bridge,1,1,0
+Airport Terminal 1,Creek,3.28,Al Garhoud Bridge,1,1,0
+GGICO,Centrepoint,5.84,,0,0,0
+GGICO,Emirates,2.96,,0,0,0
+GGICO,Airport Terminal 3,1.42,,0,0,0
+GGICO,Airport Terminal 1,0.8,,0,0,0
+GGICO,Deira City Centre,0.97,,0,0,0
+GGICO,Union,2.86,,0,0,0
+GGICO,BurJuman,3.62,Al Maktoum Bridge,1,1,0
+GGICO,ADCB,4.27,,0,0,0
+GGICO,Max,5.32,,0,0,0
+GGICO,World Trade Centre,6.35,,0,0,0
+GGICO,Emirates Towers,7.27,,0,0,0
+GGICO,Financial Centre,8.02,,0,0,0
+GGICO,Burj Khalifa/Dubai Mall,9.16,,0,0,0
+GGICO,Business Bay,10.62,,0,0,0
+GGICO,Onpassive,15.66,Al Safa|Al Safa South,2,1,1
+GGICO,Equiti,17.38,Al Safa|Al Safa South,2,1,1
+GGICO,Mall of the Emirates,20.34,Al Safa|Al Safa South,2,1,1
+GGICO,Mashreq,21.51,Al Barsha|Al Safa|Al Safa South,3,1,1
+GGICO,Dubai Internet City,23.77,Al Barsha|Al Safa|Al Safa South,3,1,1
+GGICO,Sobha Realty,26.04,Al Barsha|Al Safa|Al Safa South,3,1,1
+GGICO,DMCC,28.68,Al Barsha|Al Safa|Al Safa South,3,1,1
+GGICO,UAE Exchange,39.58,Business Bay,1,1,1
+GGICO,Etisalat,6.26,,0,0,0
+GGICO,Al Qusais,4.94,Airport Tunnel,1,1,0
+GGICO,Al Nahda,3.63,,0,0,0
+GGICO,Abu Hail,2.46,,0,0,0
+GGICO,Salah Al Din,2.26,,0,0,0
+GGICO,Baniyas Square,3.54,,0,0,0
+GGICO,Al Ras,4.86,,0,0,0
+GGICO,Al Ghubaiba,5.19,Al Maktoum Bridge,1,1,0
+GGICO,Sharaf DG,4.29,Al Maktoum Bridge,1,1,0
+GGICO,Oud Metha,2.69,,0,0,0
+GGICO,Dubai Healthcare City,3.06,,0,0,0
+GGICO,Al Jadaf,3.26,,0,0,0
+GGICO,Creek,3.87,Al Garhoud Bridge,1,1,0
+Deira City Centre,Centrepoint,6.75,,0,0,0
+Deira City Centre,Emirates,3.86,,0,0,0
+Deira City Centre,Airport Terminal 3,2.35,,0,0,0
+Deira City Centre,Airport Terminal 1,1.62,,0,0,0
+Deira City Centre,GGICO,0.97,,0,0,0
+Deira City Centre,Union,2.01,,0,0,0
+Deira City Centre,BurJuman,2.65,Al Maktoum Bridge,1,1,0
+Deira City Centre,ADCB,3.36,Al Maktoum Bridge,1,1,0
+Deira City Centre,Max,4.51,,0,0,0
+Deira City Centre,World Trade Centre,5.58,,0,0,0
+Deira City Centre,Emirates Towers,6.53,,0,0,0
+Deira City Centre,Financial Centre,7.31,,0,0,0
+Deira City Centre,Burj Khalifa/Dubai Mall,8.48,,0,0,0
+Deira City Centre,Business Bay,9.95,,0,0,0
+Deira City Centre,Onpassive,15.03,Al Safa|Al Safa South,2,1,1
+Deira City Centre,Equiti,16.77,Al Safa|Al Safa South,2,1,1
+Deira City Centre,Mall of the Emirates,19.74,Al Safa|Al Safa South,2,1,1
+Deira City Centre,Mashreq,20.9,Al Barsha|Al Safa|Al Safa South,3,1,1
+Deira City Centre,Dubai Internet City,23.15,Al Barsha|Al Safa|Al Safa South,3,1,1
+Deira City Centre,Sobha Realty,25.41,Al Barsha|Al Safa|Al Safa South,3,1,1
+Deira City Centre,DMCC,28.05,Al Barsha|Al Safa|Al Safa South,3,1,1
+Deira City Centre,UAE Exchange,39.03,Al Barsha|Al Safa|Al Safa South,3,1,1
+Deira City Centre,Etisalat,7.22,,0,0,0
+Deira City Centre,Al Qusais,5.88,Airport Tunnel,1,1,0
+Deira City Centre,Al Nahda,4.43,,0,0,0
+Deira City Centre,Abu Hail,2.84,,0,0,0
+Deira City Centre,Salah Al Din,1.75,,0,0,0
+Deira City Centre,Baniyas Square,2.69,,0,0,0
+Deira City Centre,Al Ras,3.93,Al Maktoum Bridge,1,1,0
+Deira City Centre,Al Ghubaiba,4.24,Al Maktoum Bridge,1,1,0
+Deira City Centre,Sharaf DG,3.32,Al Maktoum Bridge,1,1,0
+Deira City Centre,Oud Metha,1.96,,0,0,0
+Deira City Centre,Dubai Healthcare City,2.75,,0,0,0
+Deira City Centre,Al Jadaf,3.29,,0,0,0
+Deira City Centre,Creek,4.03,,0,0,0
+Union,Centrepoint,8.7,,0,0,0
+Union,Emirates,5.81,,0,0,0
+Union,Airport Terminal 3,4.27,,0,0,0
+Union,Airport Terminal 1,3.61,,0,0,0
+Union,GGICO,2.86,,0,0,0
+Union,Deira City Centre,2.01,,0,0,0
+Union,BurJuman,1.7,Al Maktoum Bridge,1,1,0
+Union,ADCB,2.9,Al Maktoum Bridge,1,1,0
+Union,Max,4.3,Al Maktoum Bridge,1,1,0
+Union,World Trade Centre,5.44,Al Maktoum Bridge,1,1,0
+Union,Emirates Towers,6.45,Al Maktoum Bridge,1,1,0
+Union,Financial Centre,7.26,Al Maktoum Bridge,1,1,0
+Union,Burj Khalifa/Dubai Mall,8.5,Al Maktoum Bridge,1,1,0
+Union,Business Bay,9.97,Al Maktoum Bridge,1,1,0
+Union,Onpassive,15.05,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Union,Equiti,16.83,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Union,Mall of the Emirates,19.78,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Union,Mashreq,20.9,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Union,Dubai Internet City,23.12,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Union,Sobha Realty,25.34,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Union,DMCC,27.99,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Union,UAE Exchange,39.13,Al Barsha|Al Safa|Al Safa South|Jebel Ali|Al Maktoum Bridge,5,1,1
+Union,Etisalat,8.87,Airport Tunnel,1,1,0
+Union,Al Qusais,7.37,,0,0,0
+Union,Al Nahda,5.55,,0,0,0
+Union,Abu Hail,3.38,,0,0,0
+Union,Salah Al Din,1.17,,0,0,0
+Union,Baniyas Square,0.69,,0,0,0
+Union,Al Ras,2.09,,0,0,0
+Union,Al Ghubaiba,2.54,,0,0,0
+Union,Sharaf DG,1.95,Al Maktoum Bridge,1,1,0
+Union,Oud Metha,2.7,Al Maktoum Bridge,1,1,0
+Union,Dubai Healthcare City,4.06,Al Maktoum Bridge,1,1,0
+Union,Al Jadaf,4.93,,0,0,0
+Union,Creek,5.76,,0,0,0
+BurJuman,Centrepoint,9.23,,0,0,0
+BurJuman,Emirates,6.39,,0,0,0
+BurJuman,Airport Terminal 3,4.94,Al Maktoum Bridge,1,1,0
+BurJuman,Airport Terminal 1,4.17,Al Maktoum Bridge,1,1,0
+BurJuman,GGICO,3.62,Al Maktoum Bridge,1,1,0
+BurJuman,Deira City Centre,2.65,Al Maktoum Bridge,1,1,0
+BurJuman,Union,1.7,Al Maktoum Bridge,1,1,0
+BurJuman,ADCB,1.23,,0,0,0
+BurJuman,Max,2.63,,0,0,0
+BurJuman,World Trade Centre,3.76,,0,0,0
+BurJuman,Emirates Towers,4.77,,0,0,0
+BurJuman,Financial Centre,5.58,,0,0,0
+BurJuman,Burj Khalifa/Dubai Mall,6.82,,0,0,0
+BurJuman,Business Bay,8.28,,0,0,0
+BurJuman,Onpassive,13.36,Al Safa|Al Safa South,2,1,1
+BurJuman,Equiti,15.14,Al Safa|Al Safa South,2,1,1
+BurJuman,Mall of the Emirates,18.08,Al Safa|Al Safa South,2,1,1
+BurJuman,Mashreq,19.21,Al Barsha|Al Safa|Al Safa South,3,1,1
+BurJuman,Dubai Internet City,21.42,Al Barsha|Al Safa|Al Safa South,3,1,1
+BurJuman,Sobha Realty,23.64,Al Barsha|Al Safa|Al Safa South,3,1,1
+BurJuman,DMCC,26.29,Al Barsha|Al Safa|Al Safa South,3,1,1
+BurJuman,UAE Exchange,37.44,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+BurJuman,Etisalat,9.87,Al Maktoum Bridge,1,1,0
+BurJuman,Al Qusais,8.51,Al Maktoum Bridge,1,1,0
+BurJuman,Al Nahda,6.9,Al Maktoum Bridge,1,1,0
+BurJuman,Abu Hail,4.9,Al Maktoum Bridge,1,1,0
+BurJuman,Salah Al Din,2.78,Al Maktoum Bridge,1,1,0
+BurJuman,Baniyas Square,1.72,,0,0,0
+BurJuman,Al Ras,1.8,,0,0,0
+BurJuman,Al Ghubaiba,1.82,,0,0,0
+BurJuman,Sharaf DG,0.78,,0,0,0
+BurJuman,Oud Metha,1.9,,0,0,0
+BurJuman,Dubai Healthcare City,3.33,,0,0,0
+BurJuman,Al Jadaf,4.43,,0,0,0
+BurJuman,Creek,5.29,,0,0,0
+ADCB,Centrepoint,9.49,,0,0,0
+ADCB,Emirates,6.75,,0,0,0
+ADCB,Airport Terminal 3,5.44,,0,0,0
+ADCB,Airport Terminal 1,4.65,,0,0,0
+ADCB,GGICO,4.27,,0,0,0
+ADCB,Deira City Centre,3.36,Al Maktoum Bridge,1,1,0
+ADCB,Union,2.9,Al Maktoum Bridge,1,1,0
+ADCB,BurJuman,1.23,,0,0,0
+ADCB,Max,1.41,,0,0,0
+ADCB,World Trade Centre,2.54,,0,0,0
+ADCB,Emirates Towers,3.55,,0,0,0
+ADCB,Financial Centre,4.36,,0,0,0
+ADCB,Burj Khalifa/Dubai Mall,5.6,,0,0,0
+ADCB,Business Bay,7.07,,0,0,0
+ADCB,Onpassive,12.15,Al Safa|Al Safa South,2,1,1
+ADCB,Equiti,13.93,Al Safa|Al Safa South,2,1,1
+ADCB,Mall of the Emirates,16.88,Al Safa|Al Safa South,2,1,1
+ADCB,Mashreq,18.01,Al Barsha|Al Safa|Al Safa South,3,1,1
+ADCB,Dubai Internet City,20.22,Al Barsha|Al Safa|Al Safa South,3,1,1
+ADCB,Sobha Realty,22.45,Al Barsha|Al Safa|Al Safa South,3,1,1
+ADCB,DMCC,25.1,Al Barsha|Al Safa|Al Safa South,3,1,1
+ADCB,UAE Exchange,36.23,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+ADCB,Etisalat,10.46,,0,0,0
+ADCB,Al Qusais,9.21,,0,0,0
+ADCB,Al Nahda,7.78,Al Maktoum Bridge,1,1,0
+ADCB,Abu Hail,5.93,Al Maktoum Bridge,1,1,0
+ADCB,Salah Al Din,3.91,Al Maktoum Bridge,1,1,0
+ADCB,Baniyas Square,2.93,,0,0,0
+ADCB,Al Ras,2.66,,0,0,0
+ADCB,Al Ghubaiba,2.41,,0,0,0
+ADCB,Sharaf DG,1.54,,0,0,0
+ADCB,Oud Metha,1.84,,0,0,0
+ADCB,Dubai Healthcare City,2.97,,0,0,0
+ADCB,Al Jadaf,4.13,,0,0,0
+ADCB,Creek,4.95,,0,0,0
+Max,Centrepoint,10.03,Al Garhoud Bridge,1,1,0
+Max,Emirates,7.46,,0,0,0
+Max,Airport Terminal 3,6.31,,0,0,0
+Max,Airport Terminal 1,5.55,,0,0,0
+Max,GGICO,5.32,,0,0,0
+Max,Deira City Centre,4.51,,0,0,0
+Max,Union,4.3,Al Maktoum Bridge,1,1,0
+Max,BurJuman,2.63,,0,0,0
+Max,ADCB,1.41,,0,0,0
+Max,World Trade Centre,1.14,,0,0,0
+Max,Emirates Towers,2.15,,0,0,0
+Max,Financial Centre,2.96,,0,0,0
+Max,Burj Khalifa/Dubai Mall,4.2,,0,0,0
+Max,Business Bay,5.67,,0,0,0
+Max,Onpassive,10.76,Al Safa|Al Safa South,2,1,1
+Max,Equiti,12.53,Al Safa|Al Safa South,2,1,1
+Max,Mall of the Emirates,15.48,Al Safa|Al Safa South,2,1,1
+Max,Mashreq,16.62,Al Barsha|Al Safa|Al Safa South,3,1,1
+Max,Dubai Internet City,18.84,Al Barsha|Al Safa|Al Safa South,3,1,1
+Max,Sobha Realty,21.08,Al Barsha|Al Safa|Al Safa South,3,1,1
+Max,DMCC,23.72,Al Barsha|Al Safa|Al Safa South,3,1,1
+Max,UAE Exchange,34.83,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Max,Etisalat,11.31,,0,0,0
+Max,Al Qusais,10.19,,0,0,0
+Max,Al Nahda,8.92,,0,0,0
+Max,Abu Hail,7.21,Al Maktoum Bridge,1,1,0
+Max,Salah Al Din,5.28,Al Maktoum Bridge,1,1,0
+Max,Baniyas Square,4.33,,0,0,0
+Max,Al Ras,3.87,,0,0,0
+Max,Al Ghubaiba,3.48,,0,0,0
+Max,Sharaf DG,2.83,,0,0,0
+Max,Oud Metha,2.66,,0,0,0
+Max,Dubai Healthcare City,3.21,,0,0,0
+Max,Al Jadaf,4.29,,0,0,0
+Max,Creek,4.99,,0,0,0
+World Trade Centre,Centrepoint,10.72,Al Garhoud Bridge,1,1,0
+World Trade Centre,Emirates,8.28,Al Garhoud Bridge,1,1,0
+World Trade Centre,Airport Terminal 3,7.24,,0,0,0
+World Trade Centre,Airport Terminal 1,6.51,,0,0,0
+World Trade Centre,GGICO,6.35,,0,0,0
+World Trade Centre,Deira City Centre,5.58,,0,0,0
+World Trade Centre,Union,5.44,Al Maktoum Bridge,1,1,0
+World Trade Centre,BurJuman,3.76,,0,0,0
+World Trade Centre,ADCB,2.54,,0,0,0
+World Trade Centre,Max,1.14,,0,0,0
+World Trade Centre,Emirates Towers,1.01,,0,0,0
+World Trade Centre,Financial Centre,1.82,,0,0,0
+World Trade Centre,Burj Khalifa/Dubai Mall,3.06,,0,0,0
+World Trade Centre,Business Bay,4.53,,0,0,0
+World Trade Centre,Onpassive,9.62,Al Safa|Al Safa South,2,1,1
+World Trade Centre,Equiti,11.39,Al Safa|Al Safa South,2,1,1
+World Trade Centre,Mall of the Emirates,14.34,Al Safa|Al Safa South,2,1,1
+World Trade Centre,Mashreq,15.48,Al Barsha|Al Safa|Al Safa South,3,1,1
+World Trade Centre,Dubai Internet City,17.7,Al Barsha|Al Safa|Al Safa South,3,1,1
+World Trade Centre,Sobha Realty,19.94,Al Barsha|Al Safa|Al Safa South,3,1,1
+World Trade Centre,DMCC,22.59,Al Barsha|Al Safa|Al Safa South,3,1,1
+World Trade Centre,UAE Exchange,33.69,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+World Trade Centre,Etisalat,12.18,,0,0,0
+World Trade Centre,Al Qusais,11.14,,0,0,0
+World Trade Centre,Al Nahda,9.97,,0,0,0
+World Trade Centre,Abu Hail,8.32,Al Maktoum Bridge,1,1,0
+World Trade Centre,Salah Al Din,6.42,Al Maktoum Bridge,1,1,0
+World Trade Centre,Baniyas Square,5.45,,0,0,0
+World Trade Centre,Al Ras,4.87,,0,0,0
+World Trade Centre,Al Ghubaiba,4.41,,0,0,0
+World Trade Centre,Sharaf DG,3.9,,0,0,0
+World Trade Centre,Oud Metha,3.67,,0,0,0
+World Trade Centre,Dubai Healthcare City,3.92,,0,0,0
+World Trade Centre,Al Jadaf,4.87,,0,0,0
+World Trade Centre,Creek,5.45,,0,0,0
+Emirates Towers,Centrepoint,11.35,Al Garhoud Bridge,1,1,0
+Emirates Towers,Emirates,9.03,Al Garhoud Bridge,1,1,0
+Emirates Towers,Airport Terminal 3,8.09,,0,0,0
+Emirates Towers,Airport Terminal 1,7.37,,0,0,0
+Emirates Towers,GGICO,7.27,,0,0,0
+Emirates Towers,Deira City Centre,6.53,,0,0,0
+Emirates Towers,Union,6.45,Al Maktoum Bridge,1,1,0
+Emirates Towers,BurJuman,4.77,,0,0,0
+Emirates Towers,ADCB,3.55,,0,0,0
+Emirates Towers,Max,2.15,,0,0,0
+Emirates Towers,World Trade Centre,1.01,,0,0,0
+Emirates Towers,Financial Centre,0.81,,0,0,0
+Emirates Towers,Burj Khalifa/Dubai Mall,2.05,,0,0,0
+Emirates Towers,Business Bay,3.52,,0,0,0
+Emirates Towers,Onpassive,8.61,Al Safa|Al Safa South,2,1,1
+Emirates Towers,Equiti,10.38,Al Safa|Al Safa South,2,1,1
+Emirates Towers,Mall of the Emirates,13.34,Al Safa|Al Safa South,2,1,1
+Emirates Towers,Mashreq,14.47,Al Barsha|Al Safa|Al Safa South,3,1,1
+Emirates Towers,Dubai Internet City,16.7,Al Barsha|Al Safa|Al Safa South,3,1,1
+Emirates Towers,Sobha Realty,18.94,Al Barsha|Al Safa|Al Safa South,3,1,1
+Emirates Towers,DMCC,21.59,Al Barsha|Al Safa|Al Safa South,3,1,1
+Emirates Towers,UAE Exchange,32.69,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Emirates Towers,Etisalat,12.96,Al Garhoud Bridge,1,1,0
+Emirates Towers,Al Qusais,11.99,,0,0,0
+Emirates Towers,Al Nahda,10.9,,0,0,0
+Emirates Towers,Abu Hail,9.3,Al Maktoum Bridge,1,1,0
+Emirates Towers,Salah Al Din,7.42,Al Maktoum Bridge,1,1,0
+Emirates Towers,Baniyas Square,6.45,,0,0,0
+Emirates Towers,Al Ras,5.81,,0,0,0
+Emirates Towers,Al Ghubaiba,5.32,,0,0,0
+Emirates Towers,Sharaf DG,4.88,,0,0,0
+Emirates Towers,Oud Metha,4.59,,0,0,0
+Emirates Towers,Dubai Healthcare City,4.66,,0,0,0
+Emirates Towers,Al Jadaf,5.49,,0,0,0
+Emirates Towers,Creek,5.97,,0,0,0
+Financial Centre,Centrepoint,11.88,Al Garhoud Bridge,1,1,0
+Financial Centre,Emirates,9.66,Al Garhoud Bridge,1,1,0
+Financial Centre,Airport Terminal 3,8.78,,0,0,0
+Financial Centre,Airport Terminal 1,8.08,,0,0,0
+Financial Centre,GGICO,8.02,,0,0,0
+Financial Centre,Deira City Centre,7.31,,0,0,0
+Financial Centre,Union,7.26,Al Maktoum Bridge,1,1,0
+Financial Centre,BurJuman,5.58,,0,0,0
+Financial Centre,ADCB,4.36,,0,0,0
+Financial Centre,Max,2.96,,0,0,0
+Financial Centre,World Trade Centre,1.82,,0,0,0
+Financial Centre,Emirates Towers,0.81,,0,0,0
+Financial Centre,Burj Khalifa/Dubai Mall,1.24,,0,0,0
+Financial Centre,Business Bay,2.71,,0,0,0
+Financial Centre,Onpassive,7.8,Al Safa|Al Safa South,2,1,1
+Financial Centre,Equiti,9.57,Al Safa|Al Safa South,2,1,1
+Financial Centre,Mall of the Emirates,12.53,Al Safa|Al Safa South,2,1,1
+Financial Centre,Mashreq,13.66,Al Barsha|Al Safa|Al Safa South,3,1,1
+Financial Centre,Dubai Internet City,15.9,Al Barsha|Al Safa|Al Safa South,3,1,1
+Financial Centre,Sobha Realty,18.14,Al Barsha|Al Safa|Al Safa South,3,1,1
+Financial Centre,DMCC,20.79,Al Barsha|Al Safa|Al Safa South,3,1,1
+Financial Centre,UAE Exchange,31.88,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Financial Centre,Etisalat,13.6,Al Garhoud Bridge,1,1,0
+Financial Centre,Al Qusais,12.68,,0,0,0
+Financial Centre,Al Nahda,11.64,,0,0,0
+Financial Centre,Abu Hail,10.09,Al Maktoum Bridge,1,1,0
+Financial Centre,Salah Al Din,8.23,Al Maktoum Bridge,1,1,0
+Financial Centre,Baniyas Square,7.26,,0,0,0
+Financial Centre,Al Ras,6.59,,0,0,0
+Financial Centre,Al Ghubaiba,6.08,,0,0,0
+Financial Centre,Sharaf DG,5.68,,0,0,0
+Financial Centre,Oud Metha,5.36,,0,0,0
+Financial Centre,Dubai Healthcare City,5.31,,0,0,0
+Financial Centre,Al Jadaf,6.05,,0,0,0
+Financial Centre,Creek,6.46,,0,0,0
+Burj Khalifa/Dubai Mall,Centrepoint,12.69,,0,0,0
+Burj Khalifa/Dubai Mall,Emirates,10.62,Al Garhoud Bridge,1,1,0
+Burj Khalifa/Dubai Mall,Airport Terminal 3,9.84,,0,0,0
+Burj Khalifa/Dubai Mall,Airport Terminal 1,9.17,,0,0,0
+Burj Khalifa/Dubai Mall,GGICO,9.16,,0,0,0
+Burj Khalifa/Dubai Mall,Deira City Centre,8.48,,0,0,0
+Burj Khalifa/Dubai Mall,Union,8.5,Al Maktoum Bridge,1,1,0
+Burj Khalifa/Dubai Mall,BurJuman,6.82,,0,0,0
+Burj Khalifa/Dubai Mall,ADCB,5.6,,0,0,0
+Burj Khalifa/Dubai Mall,Max,4.2,,0,0,0
+Burj Khalifa/Dubai Mall,World Trade Centre,3.06,,0,0,0
+Burj Khalifa/Dubai Mall,Emirates Towers,2.05,,0,0,0
+Burj Khalifa/Dubai Mall,Financial Centre,1.24,,0,0,0
+Burj Khalifa/Dubai Mall,Business Bay,1.48,,0,0,0
+Burj Khalifa/Dubai Mall,Onpassive,6.58,Al Safa|Al Safa South,2,1,1
+Burj Khalifa/Dubai Mall,Equiti,8.34,Al Safa|Al Safa South,2,1,1
+Burj Khalifa/Dubai Mall,Mall of the Emirates,11.3,Al Safa|Al Safa South,2,1,1
+Burj Khalifa/Dubai Mall,Mashreq,12.45,Al Barsha|Al Safa|Al Safa South,3,1,1
+Burj Khalifa/Dubai Mall,Dubai Internet City,14.68,Al Barsha|Al Safa|Al Safa South,3,1,1
+Burj Khalifa/Dubai Mall,Sobha Realty,16.94,Al Barsha|Al Safa|Al Safa South,3,1,1
+Burj Khalifa/Dubai Mall,DMCC,19.58,Al Barsha|Al Safa|Al Safa South,3,1,1
+Burj Khalifa/Dubai Mall,UAE Exchange,30.64,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Burj Khalifa/Dubai Mall,Etisalat,14.56,Al Garhoud Bridge,1,1,0
+Burj Khalifa/Dubai Mall,Al Qusais,13.71,,0,0,0
+Burj Khalifa/Dubai Mall,Al Nahda,12.77,,0,0,0
+Burj Khalifa/Dubai Mall,Abu Hail,11.29,,0,0,0
+Burj Khalifa/Dubai Mall,Salah Al Din,9.46,Al Maktoum Bridge,1,1,0
+Burj Khalifa/Dubai Mall,Baniyas Square,8.5,,0,0,0
+Burj Khalifa/Dubai Mall,Al Ras,7.81,,0,0,0
+Burj Khalifa/Dubai Mall,Al Ghubaiba,7.29,,0,0,0
+Burj Khalifa/Dubai Mall,Sharaf DG,6.91,,0,0,0
+Burj Khalifa/Dubai Mall,Oud Metha,6.52,,0,0,0
+Burj Khalifa/Dubai Mall,Dubai Healthcare City,6.33,,0,0,0
+Burj Khalifa/Dubai Mall,Al Jadaf,6.96,,0,0,0
+Burj Khalifa/Dubai Mall,Creek,7.26,,0,0,0
+Business Bay,Centrepoint,13.93,,0,0,0
+Business Bay,Emirates,11.98,Al Garhoud Bridge,1,1,0
+Business Bay,Airport Terminal 3,11.26,,0,0,0
+Business Bay,Airport Terminal 1,10.61,,0,0,0
+Business Bay,GGICO,10.62,,0,0,0
+Business Bay,Deira City Centre,9.95,,0,0,0
+Business Bay,Union,9.97,Al Maktoum Bridge,1,1,0
+Business Bay,BurJuman,8.28,,0,0,0
+Business Bay,ADCB,7.07,,0,0,0
+Business Bay,Max,5.67,,0,0,0
+Business Bay,World Trade Centre,4.53,,0,0,0
+Business Bay,Emirates Towers,3.52,,0,0,0
+Business Bay,Financial Centre,2.71,,0,0,0
+Business Bay,Burj Khalifa/Dubai Mall,1.48,,0,0,0
+Business Bay,Onpassive,5.1,Al Safa|Al Safa South,2,1,1
+Business Bay,Equiti,6.86,Al Safa|Al Safa South,2,1,1
+Business Bay,Mall of the Emirates,9.82,Al Safa|Al Safa South,2,1,1
+Business Bay,Mashreq,10.96,Al Barsha|Al Safa|Al Safa South,3,1,1
+Business Bay,Dubai Internet City,13.2,Al Barsha|Al Safa|Al Safa South,3,1,1
+Business Bay,Sobha Realty,15.46,Al Barsha|Al Safa|Al Safa South,3,1,1
+Business Bay,DMCC,18.1,Al Barsha|Al Safa|Al Safa South,3,1,1
+Business Bay,UAE Exchange,29.17,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Business Bay,Etisalat,15.9,Al Garhoud Bridge,1,1,0
+Business Bay,Al Qusais,15.11,Al Garhoud Bridge,1,1,0
+Business Bay,Al Nahda,14.23,,0,0,0
+Business Bay,Abu Hail,12.77,,0,0,0
+Business Bay,Salah Al Din,10.94,Al Maktoum Bridge,1,1,0
+Business Bay,Baniyas Square,9.95,,0,0,0
+Business Bay,Al Ras,9.2,,0,0,0
+Business Bay,Al Ghubaiba,8.66,,0,0,0
+Business Bay,Sharaf DG,8.34,,0,0,0
+Business Bay,Oud Metha,8.0,,0,0,0
+Business Bay,Dubai Healthcare City,7.75,,0,0,0
+Business Bay,Al Jadaf,8.3,,0,0,0
+Business Bay,Creek,8.53,,0,0,0
+Onpassive,Centrepoint,18.42,Al Safa|Al Safa South|Business Bay,3,1,1
+Onpassive,Emirates,16.78,Al Safa|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Onpassive,Airport Terminal 3,16.21,Al Safa|Al Safa South,2,1,1
+Onpassive,Airport Terminal 1,15.6,Al Safa|Al Safa South,2,1,1
+Onpassive,GGICO,15.66,Al Safa|Al Safa South,2,1,1
+Onpassive,Deira City Centre,15.03,Al Safa|Al Safa South,2,1,1
+Onpassive,Union,15.05,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Onpassive,BurJuman,13.36,Al Safa|Al Safa South,2,1,1
+Onpassive,ADCB,12.15,Al Safa|Al Safa South,2,1,1
+Onpassive,Max,10.76,Al Safa|Al Safa South,2,1,1
+Onpassive,World Trade Centre,9.62,Al Safa|Al Safa South,2,1,1
+Onpassive,Emirates Towers,8.61,Al Safa|Al Safa South,2,1,1
+Onpassive,Financial Centre,7.8,Al Safa|Al Safa South,2,1,1
+Onpassive,Burj Khalifa/Dubai Mall,6.58,Al Safa|Al Safa South,2,1,1
+Onpassive,Business Bay,5.1,Al Safa|Al Safa South,2,1,1
+Onpassive,Equiti,1.78,,0,0,0
+Onpassive,Mall of the Emirates,4.72,,0,0,0
+Onpassive,Mashreq,5.87,Al Barsha,1,1,0
+Onpassive,Dubai Internet City,8.11,Al Barsha,1,1,0
+Onpassive,Sobha Realty,10.38,Al Barsha,1,1,0
+Onpassive,DMCC,13.02,Al Barsha,1,1,0
+Onpassive,UAE Exchange,24.08,Al Barsha|Jebel Ali,2,1,0
+Onpassive,Etisalat,20.64,Al Safa|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Onpassive,Al Qusais,20.0,Al Safa|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Onpassive,Al Nahda,19.25,Al Safa|Al Safa South,2,1,1
+Onpassive,Abu Hail,17.86,Al Safa|Al Safa South,2,1,1
+Onpassive,Salah Al Din,16.03,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Onpassive,Baniyas Square,15.0,Al Safa|Al Safa South,2,1,1
+Onpassive,Al Ras,14.15,Al Safa|Al Safa South,2,1,1
+Onpassive,Al Ghubaiba,13.58,Al Safa|Al Safa South,2,1,1
+Onpassive,Sharaf DG,13.37,Al Safa|Al Safa South,2,1,1
+Onpassive,Oud Metha,13.08,Al Safa|Al Safa South,2,1,1
+Onpassive,Dubai Healthcare City,12.71,Al Safa|Al Safa South,2,1,1
+Onpassive,Al Jadaf,13.12,Al Safa|Al Safa South|Business Bay,3,1,1
+Onpassive,Creek,13.2,Al Safa|Al Safa South|Business Bay,3,1,1
+Equiti,Centrepoint,19.93,Al Safa South,1,1,1
+Equiti,Emirates,18.4,Al Safa South|Al Garhoud Bridge|Business Bay,3,1,1
+Equiti,Airport Terminal 3,17.89,Al Safa|Al Safa South|Business Bay,3,1,1
+Equiti,Airport Terminal 1,17.29,Al Safa|Al Safa South,2,1,1
+Equiti,GGICO,17.38,Al Safa|Al Safa South,2,1,1
+Equiti,Deira City Centre,16.77,Al Safa|Al Safa South,2,1,1
+Equiti,Union,16.83,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Equiti,BurJuman,15.14,Al Safa|Al Safa South,2,1,1
+Equiti,ADCB,13.93,Al Safa|Al Safa South,2,1,1
+Equiti,Max,12.53,Al Safa|Al Safa South,2,1,1
+Equiti,World Trade Centre,11.39,Al Safa|Al Safa South,2,1,1
+Equiti,Emirates Towers,10.38,Al Safa|Al Safa South,2,1,1
+Equiti,Financial Centre,9.57,Al Safa|Al Safa South,2,1,1
+Equiti,Burj Khalifa/Dubai Mall,8.34,Al Safa|Al Safa South,2,1,1
+Equiti,Business Bay,6.86,Al Safa|Al Safa South,2,1,1
+Equiti,Onpassive,1.78,,0,0,0
+Equiti,Mall of the Emirates,2.97,,0,0,0
+Equiti,Mashreq,4.13,Al Barsha,1,1,0
+Equiti,Dubai Internet City,6.39,Al Barsha,1,1,0
+Equiti,Sobha Realty,8.67,Al Barsha,1,1,0
+Equiti,DMCC,11.3,Al Barsha,1,1,0
+Equiti,UAE Exchange,22.3,Al Barsha|Jebel Ali,2,1,0
+Equiti,Etisalat,22.23,Al Safa South|Al Garhoud Bridge|Business Bay,3,1,1
+Equiti,Al Qusais,21.64,Al Safa|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Equiti,Al Nahda,20.95,Al Safa|Al Safa South|Airport Tunnel,3,1,1
+Equiti,Abu Hail,19.6,Al Safa|Al Safa South,2,1,1
+Equiti,Salah Al Din,17.8,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Equiti,Baniyas Square,16.78,Al Safa|Al Safa South,2,1,1
+Equiti,Al Ras,15.93,Al Safa|Al Safa South,2,1,1
+Equiti,Al Ghubaiba,15.36,Al Safa|Al Safa South,2,1,1
+Equiti,Sharaf DG,15.15,Al Safa|Al Safa South,2,1,1
+Equiti,Oud Metha,14.82,Al Safa|Al Safa South,2,1,1
+Equiti,Dubai Healthcare City,14.41,Al Safa|Al Safa South,2,1,1
+Equiti,Al Jadaf,14.76,Al Safa|Al Safa South|Business Bay,3,1,1
+Equiti,Creek,14.79,Al Safa South|Business Bay,2,1,1
+Mall of the Emirates,Centrepoint,22.75,,0,0,0
+Mall of the Emirates,Emirates,21.31,Al Safa South|Al Garhoud Bridge|Business Bay,3,1,1
+Mall of the Emirates,Airport Terminal 3,20.83,Al Safa|Al Safa South|Business Bay,3,1,1
+Mall of the Emirates,Airport Terminal 1,20.24,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,GGICO,20.34,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Deira City Centre,19.74,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Union,19.78,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Mall of the Emirates,BurJuman,18.08,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,ADCB,16.88,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Max,15.48,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,World Trade Centre,14.34,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Emirates Towers,13.34,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Financial Centre,12.53,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Burj Khalifa/Dubai Mall,11.3,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Business Bay,9.82,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Onpassive,4.72,,0,0,0
+Mall of the Emirates,Equiti,2.97,,0,0,0
+Mall of the Emirates,Mashreq,1.19,Al Barsha,1,1,0
+Mall of the Emirates,Dubai Internet City,3.45,Al Barsha,1,1,0
+Mall of the Emirates,Sobha Realty,5.74,Al Barsha,1,1,0
+Mall of the Emirates,DMCC,8.35,Al Barsha,1,1,0
+Mall of the Emirates,UAE Exchange,19.35,Al Barsha|Jebel Ali,2,1,0
+Mall of the Emirates,Etisalat,25.11,,0,0,0
+Mall of the Emirates,Al Qusais,24.56,Al Safa South|Al Garhoud Bridge|Business Bay,3,1,1
+Mall of the Emirates,Al Nahda,23.9,Al Safa|Al Safa South|Airport Tunnel,3,1,1
+Mall of the Emirates,Abu Hail,22.56,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Salah Al Din,20.76,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Mall of the Emirates,Baniyas Square,19.72,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Al Ras,18.83,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Al Ghubaiba,18.26,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Sharaf DG,18.08,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Oud Metha,17.78,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Dubai Healthcare City,17.36,Al Safa|Al Safa South,2,1,1
+Mall of the Emirates,Al Jadaf,17.69,Al Safa South|Business Bay,2,1,1
+Mall of the Emirates,Creek,17.69,Business Bay,1,1,1
+Mashreq,Centrepoint,23.93,Al Barsha,1,1,0
+Mashreq,Emirates,22.5,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Mashreq,Airport Terminal 3,22.01,Al Barsha|Al Safa|Al Safa South|Business Bay,4,1,1
+Mashreq,Airport Terminal 1,21.42,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,GGICO,21.51,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Deira City Centre,20.9,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Union,20.9,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Mashreq,BurJuman,19.21,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,ADCB,18.01,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Max,16.62,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,World Trade Centre,15.48,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Emirates Towers,14.47,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Financial Centre,13.66,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Burj Khalifa/Dubai Mall,12.45,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Business Bay,10.96,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Onpassive,5.87,Al Barsha,1,1,0
+Mashreq,Equiti,4.13,Al Barsha,1,1,0
+Mashreq,Mall of the Emirates,1.19,Al Barsha,1,1,0
+Mashreq,Dubai Internet City,2.27,,0,0,0
+Mashreq,Sobha Realty,4.56,,0,0,0
+Mashreq,DMCC,7.18,,0,0,0
+Mashreq,UAE Exchange,18.24,Jebel Ali,1,1,0
+Mashreq,Etisalat,26.3,Al Barsha,1,1,0
+Mashreq,Al Qusais,25.74,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Mashreq,Al Nahda,25.08,Al Barsha|Al Safa|Al Safa South|Airport Tunnel,4,1,1
+Mashreq,Abu Hail,23.72,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Salah Al Din,21.9,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Mashreq,Baniyas Square,20.83,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Al Ras,19.92,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Al Ghubaiba,19.34,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Sharaf DG,19.19,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Oud Metha,18.94,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Dubai Healthcare City,18.53,Al Barsha|Al Safa|Al Safa South,3,1,1
+Mashreq,Al Jadaf,18.87,Al Barsha|Al Safa South|Business Bay,3,1,1
+Mashreq,Creek,18.88,Al Barsha|Business Bay,2,1,1
+Dubai Internet City,Centrepoint,26.18,Al Barsha,1,1,0
+Dubai Internet City,Emirates,24.77,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Dubai Internet City,Airport Terminal 3,24.28,Al Barsha|Al Safa|Al Safa South|Business Bay,4,1,1
+Dubai Internet City,Airport Terminal 1,23.68,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,GGICO,23.77,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Deira City Centre,23.15,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Union,23.12,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Dubai Internet City,BurJuman,21.42,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,ADCB,20.22,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Max,18.84,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,World Trade Centre,17.7,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Emirates Towers,16.7,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Financial Centre,15.9,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Burj Khalifa/Dubai Mall,14.68,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Business Bay,13.2,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Onpassive,8.11,Al Barsha,1,1,0
+Dubai Internet City,Equiti,6.39,Al Barsha,1,1,0
+Dubai Internet City,Mall of the Emirates,3.45,Al Barsha,1,1,0
+Dubai Internet City,Mashreq,2.27,,0,0,0
+Dubai Internet City,Sobha Realty,2.29,,0,0,0
+Dubai Internet City,DMCC,4.91,,0,0,0
+Dubai Internet City,UAE Exchange,16.08,Jebel Ali,1,1,0
+Dubai Internet City,Etisalat,28.56,Al Barsha,1,1,0
+Dubai Internet City,Al Qusais,28.01,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Dubai Internet City,Al Nahda,27.34,Al Barsha|Al Safa|Al Safa South|Airport Tunnel,4,1,1
+Dubai Internet City,Abu Hail,25.97,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Salah Al Din,24.12,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Dubai Internet City,Baniyas Square,23.03,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Al Ras,22.08,Al Barsha,1,1,0
+Dubai Internet City,Al Ghubaiba,21.5,Al Barsha,1,1,0
+Dubai Internet City,Sharaf DG,21.38,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Oud Metha,21.19,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Dubai Healthcare City,20.8,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Internet City,Al Jadaf,21.14,Al Barsha|Al Safa South|Business Bay,3,1,1
+Dubai Internet City,Creek,21.15,Al Barsha|Business Bay,2,1,1
+Sobha Realty,Centrepoint,28.46,Al Barsha,1,1,0
+Sobha Realty,Emirates,27.06,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Sobha Realty,Airport Terminal 3,26.56,Al Barsha|Al Safa|Al Safa South|Business Bay,4,1,1
+Sobha Realty,Airport Terminal 1,25.96,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,GGICO,26.04,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Deira City Centre,25.41,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Union,25.34,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Sobha Realty,BurJuman,23.64,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,ADCB,22.45,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Max,21.08,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,World Trade Centre,19.94,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Emirates Towers,18.94,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Financial Centre,18.14,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Burj Khalifa/Dubai Mall,16.94,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Business Bay,15.46,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Onpassive,10.38,Al Barsha,1,1,0
+Sobha Realty,Equiti,8.67,Al Barsha,1,1,0
+Sobha Realty,Mall of the Emirates,5.74,Al Barsha,1,1,0
+Sobha Realty,Mashreq,4.56,,0,0,0
+Sobha Realty,Dubai Internet City,2.29,,0,0,0
+Sobha Realty,DMCC,2.65,,0,0,0
+Sobha Realty,UAE Exchange,13.97,Jebel Ali,1,1,0
+Sobha Realty,Etisalat,30.85,Al Barsha,1,1,0
+Sobha Realty,Al Qusais,30.3,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Sobha Realty,Al Nahda,29.62,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Abu Hail,28.22,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Salah Al Din,26.36,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Sobha Realty,Baniyas Square,25.24,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Al Ras,24.26,Al Barsha,1,1,0
+Sobha Realty,Al Ghubaiba,23.67,,0,0,0
+Sobha Realty,Sharaf DG,23.58,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Oud Metha,23.45,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Dubai Healthcare City,23.08,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sobha Realty,Al Jadaf,23.43,Al Barsha|Al Safa South|Business Bay,3,1,1
+Sobha Realty,Creek,23.44,Al Barsha|Business Bay,2,1,1
+DMCC,Centrepoint,31.02,Al Barsha,1,1,0
+DMCC,Emirates,29.66,Al Barsha|Al Garhoud Bridge|Business Bay,3,1,1
+DMCC,Airport Terminal 3,29.18,Al Barsha|Al Safa|Al Safa South|Business Bay,4,1,1
+DMCC,Airport Terminal 1,28.59,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,GGICO,28.68,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Deira City Centre,28.05,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Union,27.99,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+DMCC,BurJuman,26.29,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,ADCB,25.1,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Max,23.72,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,World Trade Centre,22.59,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Emirates Towers,21.59,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Financial Centre,20.79,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Burj Khalifa/Dubai Mall,19.58,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Business Bay,18.1,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Onpassive,13.02,Al Barsha,1,1,0
+DMCC,Equiti,11.3,Al Barsha,1,1,0
+DMCC,Mall of the Emirates,8.35,Al Barsha,1,1,0
+DMCC,Mashreq,7.18,,0,0,0
+DMCC,Dubai Internet City,4.91,,0,0,0
+DMCC,Sobha Realty,2.65,,0,0,0
+DMCC,UAE Exchange,11.41,Jebel Ali,1,1,0
+DMCC,Etisalat,33.43,Al Barsha,1,1,0
+DMCC,Al Qusais,32.91,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+DMCC,Al Nahda,32.25,Al Barsha|Al Safa|Al Safa South|Airport Tunnel,4,1,1
+DMCC,Abu Hail,30.87,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Salah Al Din,29.01,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+DMCC,Baniyas Square,27.88,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Al Ras,26.9,,0,0,0
+DMCC,Al Ghubaiba,26.3,,0,0,0
+DMCC,Sharaf DG,26.22,Al Barsha,1,1,0
+DMCC,Oud Metha,26.09,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Dubai Healthcare City,25.71,Al Barsha|Al Safa|Al Safa South,3,1,1
+DMCC,Al Jadaf,26.05,Al Barsha|Al Safa South|Business Bay,3,1,1
+DMCC,Creek,26.03,Al Barsha|Business Bay,2,1,1
+UAE Exchange,Centrepoint,41.25,,0,0,0
+UAE Exchange,Emirates,40.24,Al Garhoud Bridge,1,1,0
+UAE Exchange,Airport Terminal 3,39.94,Al Garhoud Bridge|Business Bay,2,1,1
+UAE Exchange,Airport Terminal 1,39.41,Business Bay,1,1,1
+UAE Exchange,GGICO,39.58,Business Bay,1,1,1
+UAE Exchange,Deira City Centre,39.03,Al Barsha|Al Safa|Al Safa South,3,1,1
+UAE Exchange,Union,39.13,Al Barsha|Al Safa|Al Safa South|Jebel Ali|Al Maktoum Bridge,5,1,1
+UAE Exchange,BurJuman,37.44,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,ADCB,36.23,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Max,34.83,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,World Trade Centre,33.69,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Emirates Towers,32.69,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Financial Centre,31.88,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Burj Khalifa/Dubai Mall,30.64,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Business Bay,29.17,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Onpassive,24.08,Al Barsha|Jebel Ali,2,1,0
+UAE Exchange,Equiti,22.3,Al Barsha|Jebel Ali,2,1,0
+UAE Exchange,Mall of the Emirates,19.35,Al Barsha|Jebel Ali,2,1,0
+UAE Exchange,Mashreq,18.24,Jebel Ali,1,1,0
+UAE Exchange,Dubai Internet City,16.08,Jebel Ali,1,1,0
+UAE Exchange,Sobha Realty,13.97,Jebel Ali,1,1,0
+UAE Exchange,DMCC,11.41,Jebel Ali,1,1,0
+UAE Exchange,Etisalat,43.85,,0,0,0
+UAE Exchange,Al Qusais,43.52,Al Garhoud Bridge,1,1,0
+UAE Exchange,Al Nahda,43.07,Business Bay|Airport Tunnel,2,1,1
+UAE Exchange,Abu Hail,41.86,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Salah Al Din,40.1,Al Barsha|Al Safa|Al Safa South|Jebel Ali|Al Maktoum Bridge,5,1,1
+UAE Exchange,Baniyas Square,39.07,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Al Ras,38.16,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Al Ghubaiba,37.57,Al Barsha|Al Safa South|Jebel Ali,3,1,1
+UAE Exchange,Sharaf DG,37.43,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Oud Metha,37.08,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+UAE Exchange,Dubai Healthcare City,36.55,Business Bay,1,1,1
+UAE Exchange,Al Jadaf,36.75,,0,0,0
+UAE Exchange,Creek,36.62,,0,0,0
+Etisalat,Centrepoint,2.87,,0,0,0
+Etisalat,Emirates,3.94,,0,0,0
+Etisalat,Airport Terminal 3,5.02,,0,0,0
+Etisalat,Airport Terminal 1,5.8,,0,0,0
+Etisalat,GGICO,6.26,,0,0,0
+Etisalat,Deira City Centre,7.22,,0,0,0
+Etisalat,Union,8.87,Airport Tunnel,1,1,0
+Etisalat,BurJuman,9.87,Al Maktoum Bridge,1,1,0
+Etisalat,ADCB,10.46,,0,0,0
+Etisalat,Max,11.31,,0,0,0
+Etisalat,World Trade Centre,12.18,,0,0,0
+Etisalat,Emirates Towers,12.96,Al Garhoud Bridge,1,1,0
+Etisalat,Financial Centre,13.6,Al Garhoud Bridge,1,1,0
+Etisalat,Burj Khalifa/Dubai Mall,14.56,Al Garhoud Bridge,1,1,0
+Etisalat,Business Bay,15.9,Al Garhoud Bridge,1,1,0
+Etisalat,Onpassive,20.64,Al Safa|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Etisalat,Equiti,22.23,Al Safa South|Al Garhoud Bridge|Business Bay,3,1,1
+Etisalat,Mall of the Emirates,25.11,,0,0,0
+Etisalat,Mashreq,26.3,Al Barsha,1,1,0
+Etisalat,Dubai Internet City,28.56,Al Barsha,1,1,0
+Etisalat,Sobha Realty,30.85,Al Barsha,1,1,0
+Etisalat,DMCC,33.43,Al Barsha,1,1,0
+Etisalat,UAE Exchange,43.85,,0,0,0
+Etisalat,Al Qusais,1.68,,0,0,0
+Etisalat,Al Nahda,3.82,,0,0,0
+Etisalat,Abu Hail,6.01,,0,0,0
+Etisalat,Salah Al Din,7.86,,0,0,0
+Etisalat,Baniyas Square,9.51,,0,0,0
+Etisalat,Al Ras,10.95,Airport Tunnel,1,1,0
+Etisalat,Al Ghubaiba,11.37,Al Maktoum Bridge|Airport Tunnel,2,1,0
+Etisalat,Sharaf DG,10.53,Al Maktoum Bridge,1,1,0
+Etisalat,Oud Metha,8.7,,0,0,0
+Etisalat,Dubai Healthcare City,8.31,Al Garhoud Bridge,1,1,0
+Etisalat,Al Jadaf,7.6,Al Garhoud Bridge,1,1,0
+Etisalat,Creek,7.44,Al Garhoud Bridge,1,1,0
+Al Qusais,Centrepoint,3.62,,0,0,0
+Al Qusais,Emirates,3.27,,0,0,0
+Al Qusais,Airport Terminal 3,3.9,,0,0,0
+Al Qusais,Airport Terminal 1,4.64,,0,0,0
+Al Qusais,GGICO,4.94,Airport Tunnel,1,1,0
+Al Qusais,Deira City Centre,5.88,Airport Tunnel,1,1,0
+Al Qusais,Union,7.37,,0,0,0
+Al Qusais,BurJuman,8.51,Al Maktoum Bridge,1,1,0
+Al Qusais,ADCB,9.21,,0,0,0
+Al Qusais,Max,10.19,,0,0,0
+Al Qusais,World Trade Centre,11.14,,0,0,0
+Al Qusais,Emirates Towers,11.99,,0,0,0
+Al Qusais,Financial Centre,12.68,,0,0,0
+Al Qusais,Burj Khalifa/Dubai Mall,13.71,,0,0,0
+Al Qusais,Business Bay,15.11,Al Garhoud Bridge,1,1,0
+Al Qusais,Onpassive,20.0,Al Safa|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Al Qusais,Equiti,21.64,Al Safa|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Al Qusais,Mall of the Emirates,24.56,Al Safa South|Al Garhoud Bridge|Business Bay,3,1,1
+Al Qusais,Mashreq,25.74,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Al Qusais,Dubai Internet City,28.01,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Al Qusais,Sobha Realty,30.3,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Al Qusais,DMCC,32.91,Al Barsha|Al Safa South|Al Garhoud Bridge|Business Bay,4,1,1
+Al Qusais,UAE Exchange,43.52,Al Garhoud Bridge,1,1,0
+Al Qusais,Etisalat,1.68,,0,0,0
+Al Qusais,Al Nahda,2.14,,0,0,0
+Al Qusais,Abu Hail,4.37,,0,0,0
+Al Qusais,Salah Al Din,6.31,,0,0,0
+Al Qusais,Baniyas Square,7.99,,0,0,0
+Al Qusais,Al Ras,9.46,,0,0,0
+Al Qusais,Al Ghubaiba,9.9,,0,0,0
+Al Qusais,Sharaf DG,9.12,Al Maktoum Bridge,1,1,0
+Al Qusais,Oud Metha,7.54,,0,0,0
+Al Qusais,Dubai Healthcare City,7.38,,0,0,0
+Al Qusais,Al Jadaf,6.87,Al Garhoud Bridge,1,1,0
+Al Qusais,Creek,6.9,Al Garhoud Bridge,1,1,0
+Al Nahda,Centrepoint,5.18,,0,0,0
+Al Nahda,Emirates,3.48,Airport Tunnel,1,1,0
+Al Nahda,Airport Terminal 3,3.16,Airport Tunnel,1,1,0
+Al Nahda,Airport Terminal 1,3.66,Airport Tunnel,1,1,0
+Al Nahda,GGICO,3.63,,0,0,0
+Al Nahda,Deira City Centre,4.43,,0,0,0
+Al Nahda,Union,5.55,,0,0,0
+Al Nahda,BurJuman,6.9,Al Maktoum Bridge,1,1,0
+Al Nahda,ADCB,7.78,Al Maktoum Bridge,1,1,0
+Al Nahda,Max,8.92,,0,0,0
+Al Nahda,World Trade Centre,9.97,,0,0,0
+Al Nahda,Emirates Towers,10.9,,0,0,0
+Al Nahda,Financial Centre,11.64,,0,0,0
+Al Nahda,Burj Khalifa/Dubai Mall,12.77,,0,0,0
+Al Nahda,Business Bay,14.23,,0,0,0
+Al Nahda,Onpassive,19.25,Al Safa|Al Safa South,2,1,1
+Al Nahda,Equiti,20.95,Al Safa|Al Safa South|Airport Tunnel,3,1,1
+Al Nahda,Mall of the Emirates,23.9,Al Safa|Al Safa South|Airport Tunnel,3,1,1
+Al Nahda,Mashreq,25.08,Al Barsha|Al Safa|Al Safa South|Airport Tunnel,4,1,1
+Al Nahda,Dubai Internet City,27.34,Al Barsha|Al Safa|Al Safa South|Airport Tunnel,4,1,1
+Al Nahda,Sobha Realty,29.62,Al Barsha|Al Safa|Al Safa South,3,1,1
+Al Nahda,DMCC,32.25,Al Barsha|Al Safa|Al Safa South|Airport Tunnel,4,1,1
+Al Nahda,UAE Exchange,43.07,Business Bay|Airport Tunnel,2,1,1
+Al Nahda,Etisalat,3.82,,0,0,0
+Al Nahda,Al Qusais,2.14,,0,0,0
+Al Nahda,Abu Hail,2.31,,0,0,0
+Al Nahda,Salah Al Din,4.42,,0,0,0
+Al Nahda,Baniyas Square,6.11,,0,0,0
+Al Nahda,Al Ras,7.6,,0,0,0
+Al Nahda,Al Ghubaiba,8.1,,0,0,0
+Al Nahda,Sharaf DG,7.42,Al Maktoum Bridge,1,1,0
+Al Nahda,Oud Metha,6.31,,0,0,0
+Al Nahda,Dubai Healthcare City,6.55,Airport Tunnel,1,1,0
+Al Nahda,Al Jadaf,6.37,Al Garhoud Bridge|Airport Tunnel,2,1,0
+Al Nahda,Creek,6.66,Al Garhoud Bridge|Airport Tunnel,2,1,0
+Abu Hail,Centrepoint,6.72,Airport Tunnel,1,1,0
+Abu Hail,Emirates,4.22,Airport Tunnel,1,1,0
+Abu Hail,Airport Terminal 3,3.02,,0,0,0
+Abu Hail,Airport Terminal 1,3.0,,0,0,0
+Abu Hail,GGICO,2.46,,0,0,0
+Abu Hail,Deira City Centre,2.84,,0,0,0
+Abu Hail,Union,3.38,,0,0,0
+Abu Hail,BurJuman,4.9,Al Maktoum Bridge,1,1,0
+Abu Hail,ADCB,5.93,Al Maktoum Bridge,1,1,0
+Abu Hail,Max,7.21,Al Maktoum Bridge,1,1,0
+Abu Hail,World Trade Centre,8.32,Al Maktoum Bridge,1,1,0
+Abu Hail,Emirates Towers,9.3,Al Maktoum Bridge,1,1,0
+Abu Hail,Financial Centre,10.09,Al Maktoum Bridge,1,1,0
+Abu Hail,Burj Khalifa/Dubai Mall,11.29,,0,0,0
+Abu Hail,Business Bay,12.77,,0,0,0
+Abu Hail,Onpassive,17.86,Al Safa|Al Safa South,2,1,1
+Abu Hail,Equiti,19.6,Al Safa|Al Safa South,2,1,1
+Abu Hail,Mall of the Emirates,22.56,Al Safa|Al Safa South,2,1,1
+Abu Hail,Mashreq,23.72,Al Barsha|Al Safa|Al Safa South,3,1,1
+Abu Hail,Dubai Internet City,25.97,Al Barsha|Al Safa|Al Safa South,3,1,1
+Abu Hail,Sobha Realty,28.22,Al Barsha|Al Safa|Al Safa South,3,1,1
+Abu Hail,DMCC,30.87,Al Barsha|Al Safa|Al Safa South,3,1,1
+Abu Hail,UAE Exchange,41.86,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Abu Hail,Etisalat,6.01,,0,0,0
+Abu Hail,Al Qusais,4.37,,0,0,0
+Abu Hail,Al Nahda,2.31,,0,0,0
+Abu Hail,Salah Al Din,2.21,,0,0,0
+Abu Hail,Baniyas Square,3.87,,0,0,0
+Abu Hail,Al Ras,5.36,,0,0,0
+Abu Hail,Al Ghubaiba,5.88,,0,0,0
+Abu Hail,Sharaf DG,5.31,Al Maktoum Bridge,1,1,0
+Abu Hail,Oud Metha,4.78,,0,0,0
+Abu Hail,Dubai Healthcare City,5.48,,0,0,0
+Abu Hail,Al Jadaf,5.72,,0,0,0
+Abu Hail,Creek,6.27,Al Garhoud Bridge,1,1,0
+Salah Al Din,Centrepoint,7.96,,0,0,0
+Salah Al Din,Emirates,5.12,,0,0,0
+Salah Al Din,Airport Terminal 3,3.59,,0,0,0
+Salah Al Din,Airport Terminal 1,3.06,,0,0,0
+Salah Al Din,GGICO,2.26,,0,0,0
+Salah Al Din,Deira City Centre,1.75,,0,0,0
+Salah Al Din,Union,1.17,,0,0,0
+Salah Al Din,BurJuman,2.78,Al Maktoum Bridge,1,1,0
+Salah Al Din,ADCB,3.91,Al Maktoum Bridge,1,1,0
+Salah Al Din,Max,5.28,Al Maktoum Bridge,1,1,0
+Salah Al Din,World Trade Centre,6.42,Al Maktoum Bridge,1,1,0
+Salah Al Din,Emirates Towers,7.42,Al Maktoum Bridge,1,1,0
+Salah Al Din,Financial Centre,8.23,Al Maktoum Bridge,1,1,0
+Salah Al Din,Burj Khalifa/Dubai Mall,9.46,Al Maktoum Bridge,1,1,0
+Salah Al Din,Business Bay,10.94,Al Maktoum Bridge,1,1,0
+Salah Al Din,Onpassive,16.03,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Salah Al Din,Equiti,17.8,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Salah Al Din,Mall of the Emirates,20.76,Al Safa|Al Safa South|Al Maktoum Bridge,3,1,1
+Salah Al Din,Mashreq,21.9,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Salah Al Din,Dubai Internet City,24.12,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Salah Al Din,Sobha Realty,26.36,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Salah Al Din,DMCC,29.01,Al Barsha|Al Safa|Al Safa South|Al Maktoum Bridge,4,1,1
+Salah Al Din,UAE Exchange,40.1,Al Barsha|Al Safa|Al Safa South|Jebel Ali|Al Maktoum Bridge,5,1,1
+Salah Al Din,Etisalat,7.86,,0,0,0
+Salah Al Din,Al Qusais,6.31,,0,0,0
+Salah Al Din,Al Nahda,4.42,,0,0,0
+Salah Al Din,Abu Hail,2.21,,0,0,0
+Salah Al Din,Baniyas Square,1.69,,0,0,0
+Salah Al Din,Al Ras,3.18,,0,0,0
+Salah Al Din,Al Ghubaiba,3.68,,0,0,0
+Salah Al Din,Sharaf DG,3.11,Al Maktoum Bridge,1,1,0
+Salah Al Din,Oud Metha,3.23,Al Maktoum Bridge,1,1,0
+Salah Al Din,Dubai Healthcare City,4.37,,0,0,0
+Salah Al Din,Al Jadaf,5.03,,0,0,0
+Salah Al Din,Creek,5.79,,0,0,0
+Baniyas Square,Centrepoint,9.38,,0,0,0
+Baniyas Square,Emirates,6.5,,0,0,0
+Baniyas Square,Airport Terminal 3,4.96,,0,0,0
+Baniyas Square,Airport Terminal 1,4.29,,0,0,0
+Baniyas Square,GGICO,3.54,,0,0,0
+Baniyas Square,Deira City Centre,2.69,,0,0,0
+Baniyas Square,Union,0.69,,0,0,0
+Baniyas Square,BurJuman,1.72,,0,0,0
+Baniyas Square,ADCB,2.93,,0,0,0
+Baniyas Square,Max,4.33,,0,0,0
+Baniyas Square,World Trade Centre,5.45,,0,0,0
+Baniyas Square,Emirates Towers,6.45,,0,0,0
+Baniyas Square,Financial Centre,7.26,,0,0,0
+Baniyas Square,Burj Khalifa/Dubai Mall,8.5,,0,0,0
+Baniyas Square,Business Bay,9.95,,0,0,0
+Baniyas Square,Onpassive,15.0,Al Safa|Al Safa South,2,1,1
+Baniyas Square,Equiti,16.78,Al Safa|Al Safa South,2,1,1
+Baniyas Square,Mall of the Emirates,19.72,Al Safa|Al Safa South,2,1,1
+Baniyas Square,Mashreq,20.83,Al Barsha|Al Safa|Al Safa South,3,1,1
+Baniyas Square,Dubai Internet City,23.03,Al Barsha|Al Safa|Al Safa South,3,1,1
+Baniyas Square,Sobha Realty,25.24,Al Barsha|Al Safa|Al Safa South,3,1,1
+Baniyas Square,DMCC,27.88,Al Barsha|Al Safa|Al Safa South,3,1,1
+Baniyas Square,UAE Exchange,39.07,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Baniyas Square,Etisalat,9.51,,0,0,0
+Baniyas Square,Al Qusais,7.99,,0,0,0
+Baniyas Square,Al Nahda,6.11,,0,0,0
+Baniyas Square,Abu Hail,3.87,,0,0,0
+Baniyas Square,Salah Al Din,1.69,,0,0,0
+Baniyas Square,Al Ras,1.49,,0,0,0
+Baniyas Square,Al Ghubaiba,2.01,,0,0,0
+Baniyas Square,Sharaf DG,1.67,,0,0,0
+Baniyas Square,Oud Metha,3.14,Al Maktoum Bridge,1,1,0
+Baniyas Square,Dubai Healthcare City,4.55,Al Maktoum Bridge,1,1,0
+Baniyas Square,Al Jadaf,5.5,Al Maktoum Bridge,1,1,0
+Baniyas Square,Creek,6.34,Al Maktoum Bridge,1,1,0
+Al Ras,Centrepoint,10.67,Al Maktoum Bridge,1,1,0
+Al Ras,Emirates,7.79,Al Maktoum Bridge,1,1,0
+Al Ras,Airport Terminal 3,6.27,,0,0,0
+Al Ras,Airport Terminal 1,5.54,Al Maktoum Bridge,1,1,0
+Al Ras,GGICO,4.86,,0,0,0
+Al Ras,Deira City Centre,3.93,Al Maktoum Bridge,1,1,0
+Al Ras,Union,2.09,,0,0,0
+Al Ras,BurJuman,1.8,,0,0,0
+Al Ras,ADCB,2.66,,0,0,0
+Al Ras,Max,3.87,,0,0,0
+Al Ras,World Trade Centre,4.87,,0,0,0
+Al Ras,Emirates Towers,5.81,,0,0,0
+Al Ras,Financial Centre,6.59,,0,0,0
+Al Ras,Burj Khalifa/Dubai Mall,7.81,,0,0,0
+Al Ras,Business Bay,9.2,,0,0,0
+Al Ras,Onpassive,14.15,Al Safa|Al Safa South,2,1,1
+Al Ras,Equiti,15.93,Al Safa|Al Safa South,2,1,1
+Al Ras,Mall of the Emirates,18.83,Al Safa|Al Safa South,2,1,1
+Al Ras,Mashreq,19.92,Al Barsha|Al Safa|Al Safa South,3,1,1
+Al Ras,Dubai Internet City,22.08,Al Barsha,1,1,0
+Al Ras,Sobha Realty,24.26,Al Barsha,1,1,0
+Al Ras,DMCC,26.9,,0,0,0
+Al Ras,UAE Exchange,38.16,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Al Ras,Etisalat,10.95,Airport Tunnel,1,1,0
+Al Ras,Al Qusais,9.46,,0,0,0
+Al Ras,Al Nahda,7.6,,0,0,0
+Al Ras,Abu Hail,5.36,,0,0,0
+Al Ras,Salah Al Din,3.18,,0,0,0
+Al Ras,Baniyas Square,1.49,,0,0,0
+Al Ras,Al Ghubaiba,0.61,,0,0,0
+Al Ras,Sharaf DG,1.14,,0,0,0
+Al Ras,Oud Metha,3.69,,0,0,0
+Al Ras,Dubai Healthcare City,5.13,,0,0,0
+Al Ras,Al Jadaf,6.22,,0,0,0
+Al Ras,Creek,7.07,,0,0,0
+Al Ghubaiba,Centrepoint,10.96,Al Maktoum Bridge,1,1,0
+Al Ghubaiba,Emirates,8.08,Al Maktoum Bridge,1,1,0
+Al Ghubaiba,Airport Terminal 3,6.58,Al Maktoum Bridge,1,1,0
+Al Ghubaiba,Airport Terminal 1,5.84,Al Maktoum Bridge,1,1,0
+Al Ghubaiba,GGICO,5.19,Al Maktoum Bridge,1,1,0
+Al Ghubaiba,Deira City Centre,4.24,Al Maktoum Bridge,1,1,0
+Al Ghubaiba,Union,2.54,,0,0,0
+Al Ghubaiba,BurJuman,1.82,,0,0,0
+Al Ghubaiba,ADCB,2.41,,0,0,0
+Al Ghubaiba,Max,3.48,,0,0,0
+Al Ghubaiba,World Trade Centre,4.41,,0,0,0
+Al Ghubaiba,Emirates Towers,5.32,,0,0,0
+Al Ghubaiba,Financial Centre,6.08,,0,0,0
+Al Ghubaiba,Burj Khalifa/Dubai Mall,7.29,,0,0,0
+Al Ghubaiba,Business Bay,8.66,,0,0,0
+Al Ghubaiba,Onpassive,13.58,Al Safa|Al Safa South,2,1,1
+Al Ghubaiba,Equiti,15.36,Al Safa|Al Safa South,2,1,1
+Al Ghubaiba,Mall of the Emirates,18.26,Al Safa|Al Safa South,2,1,1
+Al Ghubaiba,Mashreq,19.34,Al Barsha|Al Safa|Al Safa South,3,1,1
+Al Ghubaiba,Dubai Internet City,21.5,Al Barsha,1,1,0
+Al Ghubaiba,Sobha Realty,23.67,,0,0,0
+Al Ghubaiba,DMCC,26.3,,0,0,0
+Al Ghubaiba,UAE Exchange,37.57,Al Barsha|Al Safa South|Jebel Ali,3,1,1
+Al Ghubaiba,Etisalat,11.37,Al Maktoum Bridge|Airport Tunnel,2,1,0
+Al Ghubaiba,Al Qusais,9.9,,0,0,0
+Al Ghubaiba,Al Nahda,8.1,,0,0,0
+Al Ghubaiba,Abu Hail,5.88,,0,0,0
+Al Ghubaiba,Salah Al Din,3.68,,0,0,0
+Al Ghubaiba,Baniyas Square,2.01,,0,0,0
+Al Ghubaiba,Al Ras,0.61,,0,0,0
+Al Ghubaiba,Sharaf DG,1.05,,0,0,0
+Al Ghubaiba,Oud Metha,3.71,,0,0,0
+Al Ghubaiba,Dubai Healthcare City,5.11,,0,0,0
+Al Ghubaiba,Al Jadaf,6.24,,0,0,0
+Al Ghubaiba,Creek,7.09,,0,0,0
+Sharaf DG,Centrepoint,9.98,Al Maktoum Bridge,1,1,0
+Sharaf DG,Emirates,7.12,Al Maktoum Bridge,1,1,0
+Sharaf DG,Airport Terminal 3,5.65,Al Maktoum Bridge,1,1,0
+Sharaf DG,Airport Terminal 1,4.88,Al Maktoum Bridge,1,1,0
+Sharaf DG,GGICO,4.29,Al Maktoum Bridge,1,1,0
+Sharaf DG,Deira City Centre,3.32,Al Maktoum Bridge,1,1,0
+Sharaf DG,Union,1.95,Al Maktoum Bridge,1,1,0
+Sharaf DG,BurJuman,0.78,,0,0,0
+Sharaf DG,ADCB,1.54,,0,0,0
+Sharaf DG,Max,2.83,,0,0,0
+Sharaf DG,World Trade Centre,3.9,,0,0,0
+Sharaf DG,Emirates Towers,4.88,,0,0,0
+Sharaf DG,Financial Centre,5.68,,0,0,0
+Sharaf DG,Burj Khalifa/Dubai Mall,6.91,,0,0,0
+Sharaf DG,Business Bay,8.34,,0,0,0
+Sharaf DG,Onpassive,13.37,Al Safa|Al Safa South,2,1,1
+Sharaf DG,Equiti,15.15,Al Safa|Al Safa South,2,1,1
+Sharaf DG,Mall of the Emirates,18.08,Al Safa|Al Safa South,2,1,1
+Sharaf DG,Mashreq,19.19,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sharaf DG,Dubai Internet City,21.38,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sharaf DG,Sobha Realty,23.58,Al Barsha|Al Safa|Al Safa South,3,1,1
+Sharaf DG,DMCC,26.22,Al Barsha,1,1,0
+Sharaf DG,UAE Exchange,37.43,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Sharaf DG,Etisalat,10.53,Al Maktoum Bridge,1,1,0
+Sharaf DG,Al Qusais,9.12,Al Maktoum Bridge,1,1,0
+Sharaf DG,Al Nahda,7.42,Al Maktoum Bridge,1,1,0
+Sharaf DG,Abu Hail,5.31,Al Maktoum Bridge,1,1,0
+Sharaf DG,Salah Al Din,3.11,Al Maktoum Bridge,1,1,0
+Sharaf DG,Baniyas Square,1.67,,0,0,0
+Sharaf DG,Al Ras,1.14,,0,0,0
+Sharaf DG,Al Ghubaiba,1.05,,0,0,0
+Sharaf DG,Oud Metha,2.66,,0,0,0
+Sharaf DG,Dubai Healthcare City,4.07,,0,0,0
+Sharaf DG,Al Jadaf,5.19,,0,0,0
+Sharaf DG,Creek,6.04,,0,0,0
+Oud Metha,Centrepoint,7.65,,0,0,0
+Oud Metha,Emirates,4.93,,0,0,0
+Oud Metha,Airport Terminal 3,3.68,,0,0,0
+Oud Metha,Airport Terminal 1,2.91,,0,0,0
+Oud Metha,GGICO,2.69,,0,0,0
+Oud Metha,Deira City Centre,1.96,,0,0,0
+Oud Metha,Union,2.7,Al Maktoum Bridge,1,1,0
+Oud Metha,BurJuman,1.9,,0,0,0
+Oud Metha,ADCB,1.84,,0,0,0
+Oud Metha,Max,2.66,,0,0,0
+Oud Metha,World Trade Centre,3.67,,0,0,0
+Oud Metha,Emirates Towers,4.59,,0,0,0
+Oud Metha,Financial Centre,5.36,,0,0,0
+Oud Metha,Burj Khalifa/Dubai Mall,6.52,,0,0,0
+Oud Metha,Business Bay,8.0,,0,0,0
+Oud Metha,Onpassive,13.08,Al Safa|Al Safa South,2,1,1
+Oud Metha,Equiti,14.82,Al Safa|Al Safa South,2,1,1
+Oud Metha,Mall of the Emirates,17.78,Al Safa|Al Safa South,2,1,1
+Oud Metha,Mashreq,18.94,Al Barsha|Al Safa|Al Safa South,3,1,1
+Oud Metha,Dubai Internet City,21.19,Al Barsha|Al Safa|Al Safa South,3,1,1
+Oud Metha,Sobha Realty,23.45,Al Barsha|Al Safa|Al Safa South,3,1,1
+Oud Metha,DMCC,26.09,Al Barsha|Al Safa|Al Safa South,3,1,1
+Oud Metha,UAE Exchange,37.08,Al Barsha|Al Safa|Al Safa South|Jebel Ali,4,1,1
+Oud Metha,Etisalat,8.7,,0,0,0
+Oud Metha,Al Qusais,7.54,,0,0,0
+Oud Metha,Al Nahda,6.31,,0,0,0
+Oud Metha,Abu Hail,4.78,,0,0,0
+Oud Metha,Salah Al Din,3.23,Al Maktoum Bridge,1,1,0
+Oud Metha,Baniyas Square,3.14,Al Maktoum Bridge,1,1,0
+Oud Metha,Al Ras,3.69,,0,0,0
+Oud Metha,Al Ghubaiba,3.71,,0,0,0
+Oud Metha,Sharaf DG,2.66,,0,0,0
+Oud Metha,Dubai Healthcare City,1.45,,0,0,0
+Oud Metha,Al Jadaf,2.53,,0,0,0
+Oud Metha,Creek,3.39,,0,0,0
+Dubai Healthcare City,Centrepoint,6.83,Al Garhoud Bridge,1,1,0
+Dubai Healthcare City,Emirates,4.38,Al Garhoud Bridge,1,1,0
+Dubai Healthcare City,Airport Terminal 3,3.51,,0,0,0
+Dubai Healthcare City,Airport Terminal 1,2.88,,0,0,0
+Dubai Healthcare City,GGICO,3.06,,0,0,0
+Dubai Healthcare City,Deira City Centre,2.75,,0,0,0
+Dubai Healthcare City,Union,4.06,Al Maktoum Bridge,1,1,0
+Dubai Healthcare City,BurJuman,3.33,,0,0,0
+Dubai Healthcare City,ADCB,2.97,,0,0,0
+Dubai Healthcare City,Max,3.21,,0,0,0
+Dubai Healthcare City,World Trade Centre,3.92,,0,0,0
+Dubai Healthcare City,Emirates Towers,4.66,,0,0,0
+Dubai Healthcare City,Financial Centre,5.31,,0,0,0
+Dubai Healthcare City,Burj Khalifa/Dubai Mall,6.33,,0,0,0
+Dubai Healthcare City,Business Bay,7.75,,0,0,0
+Dubai Healthcare City,Onpassive,12.71,Al Safa|Al Safa South,2,1,1
+Dubai Healthcare City,Equiti,14.41,Al Safa|Al Safa South,2,1,1
+Dubai Healthcare City,Mall of the Emirates,17.36,Al Safa|Al Safa South,2,1,1
+Dubai Healthcare City,Mashreq,18.53,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Healthcare City,Dubai Internet City,20.8,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Healthcare City,Sobha Realty,23.08,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Healthcare City,DMCC,25.71,Al Barsha|Al Safa|Al Safa South,3,1,1
+Dubai Healthcare City,UAE Exchange,36.55,Business Bay,1,1,1
+Dubai Healthcare City,Etisalat,8.31,Al Garhoud Bridge,1,1,0
+Dubai Healthcare City,Al Qusais,7.38,,0,0,0
+Dubai Healthcare City,Al Nahda,6.55,Airport Tunnel,1,1,0
+Dubai Healthcare City,Abu Hail,5.48,,0,0,0
+Dubai Healthcare City,Salah Al Din,4.37,,0,0,0
+Dubai Healthcare City,Baniyas Square,4.55,Al Maktoum Bridge,1,1,0
+Dubai Healthcare City,Al Ras,5.13,,0,0,0
+Dubai Healthcare City,Al Ghubaiba,5.11,,0,0,0
+Dubai Healthcare City,Sharaf DG,4.07,,0,0,0
+Dubai Healthcare City,Oud Metha,1.45,,0,0,0
+Dubai Healthcare City,Al Jadaf,1.16,,0,0,0
+Dubai Healthcare City,Creek,1.99,,0,0,0
+Al Jadaf,Centrepoint,5.86,Al Garhoud Bridge,1,1,0
+Al Jadaf,Emirates,3.68,Al Garhoud Bridge,1,1,0
+Al Jadaf,Airport Terminal 3,3.21,Al Garhoud Bridge,1,1,0
+Al Jadaf,Airport Terminal 1,2.8,Al Garhoud Bridge,1,1,0
+Al Jadaf,GGICO,3.26,,0,0,0
+Al Jadaf,Deira City Centre,3.29,,0,0,0
+Al Jadaf,Union,4.93,,0,0,0
+Al Jadaf,BurJuman,4.43,,0,0,0
+Al Jadaf,ADCB,4.13,,0,0,0
+Al Jadaf,Max,4.29,,0,0,0
+Al Jadaf,World Trade Centre,4.87,,0,0,0
+Al Jadaf,Emirates Towers,5.49,,0,0,0
+Al Jadaf,Financial Centre,6.05,,0,0,0
+Al Jadaf,Burj Khalifa/Dubai Mall,6.96,,0,0,0
+Al Jadaf,Business Bay,8.3,,0,0,0
+Al Jadaf,Onpassive,13.12,Al Safa|Al Safa South|Business Bay,3,1,1
+Al Jadaf,Equiti,14.76,Al Safa|Al Safa South|Business Bay,3,1,1
+Al Jadaf,Mall of the Emirates,17.69,Al Safa South|Business Bay,2,1,1
+Al Jadaf,Mashreq,18.87,Al Barsha|Al Safa South|Business Bay,3,1,1
+Al Jadaf,Dubai Internet City,21.14,Al Barsha|Al Safa South|Business Bay,3,1,1
+Al Jadaf,Sobha Realty,23.43,Al Barsha|Al Safa South|Business Bay,3,1,1
+Al Jadaf,DMCC,26.05,Al Barsha|Al Safa South|Business Bay,3,1,1
+Al Jadaf,UAE Exchange,36.75,,0,0,0
+Al Jadaf,Etisalat,7.6,Al Garhoud Bridge,1,1,0
+Al Jadaf,Al Qusais,6.87,Al Garhoud Bridge,1,1,0
+Al Jadaf,Al Nahda,6.37,Al Garhoud Bridge|Airport Tunnel,2,1,0
+Al Jadaf,Abu Hail,5.72,,0,0,0
+Al Jadaf,Salah Al Din,5.03,,0,0,0
+Al Jadaf,Baniyas Square,5.5,Al Maktoum Bridge,1,1,0
+Al Jadaf,Al Ras,6.22,,0,0,0
+Al Jadaf,Al Ghubaiba,6.24,,0,0,0
+Al Jadaf,Sharaf DG,5.19,,0,0,0
+Al Jadaf,Oud Metha,2.53,,0,0,0
+Al Jadaf,Dubai Healthcare City,1.16,,0,0,0
+Al Jadaf,Creek,0.86,,0,0,0
+Creek,Centrepoint,5.43,,0,0,0
+Creek,Emirates,3.63,Al Garhoud Bridge,1,1,0
+Creek,Airport Terminal 3,3.53,Al Garhoud Bridge,1,1,0
+Creek,Airport Terminal 1,3.28,Al Garhoud Bridge,1,1,0
+Creek,GGICO,3.87,Al Garhoud Bridge,1,1,0
+Creek,Deira City Centre,4.03,,0,0,0
+Creek,Union,5.76,,0,0,0
+Creek,BurJuman,5.29,,0,0,0
+Creek,ADCB,4.95,,0,0,0
+Creek,Max,4.99,,0,0,0
+Creek,World Trade Centre,5.45,,0,0,0
+Creek,Emirates Towers,5.97,,0,0,0
+Creek,Financial Centre,6.46,,0,0,0
+Creek,Burj Khalifa/Dubai Mall,7.26,,0,0,0
+Creek,Business Bay,8.53,,0,0,0
+Creek,Onpassive,13.2,Al Safa|Al Safa South|Business Bay,3,1,1
+Creek,Equiti,14.79,Al Safa South|Business Bay,2,1,1
+Creek,Mall of the Emirates,17.69,Business Bay,1,1,1
+Creek,Mashreq,18.88,Al Barsha|Business Bay,2,1,1
+Creek,Dubai Internet City,21.15,Al Barsha|Business Bay,2,1,1
+Creek,Sobha Realty,23.44,Al Barsha|Business Bay,2,1,1
+Creek,DMCC,26.03,Al Barsha|Business Bay,2,1,1
+Creek,UAE Exchange,36.62,,0,0,0
+Creek,Etisalat,7.44,Al Garhoud Bridge,1,1,0
+Creek,Al Qusais,6.9,Al Garhoud Bridge,1,1,0
+Creek,Al Nahda,6.66,Al Garhoud Bridge|Airport Tunnel,2,1,0
+Creek,Abu Hail,6.27,Al Garhoud Bridge,1,1,0
+Creek,Salah Al Din,5.79,,0,0,0
+Creek,Baniyas Square,6.34,Al Maktoum Bridge,1,1,0
+Creek,Al Ras,7.07,,0,0,0
+Creek,Al Ghubaiba,7.09,,0,0,0
+Creek,Sharaf DG,6.04,,0,0,0
+Creek,Oud Metha,3.39,,0,0,0
+Creek,Dubai Healthcare City,1.99,,0,0,0
+Creek,Al Jadaf,0.86,,0,0,0

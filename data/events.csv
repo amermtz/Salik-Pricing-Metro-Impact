@@ -1,1 +1,18 @@
 event_type,name,start_date,end_date,source_url,verified,notes
+pricing,Salik variable pricing starts,2025-01-31,,,no,Date from project brief; treatment date in the simulation
+gate_opening,Business Bay gate opens,2024-11-24,,,no,Approximate; simulation assumption
+gate_opening,Al Safa South gate opens,2024-11-24,,,no,Approximate; simulation assumption
+ramadan,Ramadan 2025,2025-03-01,2025-03-29,,no,Approximate; Salik peak 9am-5pm during Ramadan
+public_holiday,Islamic New Year 2024,2024-07-07,2024-07-07,,no,Approximate
+public_holiday,Prophet's Birthday 2024,2024-09-15,2024-09-15,,no,Approximate
+public_holiday,Commemoration and National Day,2024-12-01,2024-12-03,,no,Approximate
+public_holiday,New Year's Day 2025,2025-01-01,2025-01-01,,no,Approximate
+public_holiday,Eid al-Fitr 2025,2025-03-30,2025-04-01,,no,Approximate
+public_holiday,Arafat Day and Eid al-Adha 2025,2025-06-05,2025-06-08,,no,Approximate
+public_holiday,Islamic New Year 2025,2025-06-26,2025-06-26,,no,Approximate
+school_holiday,Summer break 2024,2024-07-01,2024-08-25,,no,Approximate
+school_holiday,Winter break 2024-25,2024-12-09,2025-01-03,,no,Approximate
+school_holiday,Spring break 2025,2025-03-17,2025-03-30,,no,Approximate
+school_holiday,Summer break 2025,2025-07-04,2025-08-24,,no,Approximate; after the data window
+parking,Variable parking tariff in Dubai,2025-04-04,,,no,Approximate; simulation assumption
+disruption,Simulated Red Line outage (south section),2024-10-15,2024-10-15,,no,Fictional event planted in the simulation

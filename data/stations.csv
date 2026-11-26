@@ -1,0 +1,37 @@
+station,line,lat,lon,weight,cbd
+Centrepoint,Red,25.2304,55.3914,1.0,0
+Emirates,Red,25.2414,55.3654,0.6,0
+Airport Terminal 3,Red,25.2486,55.3523,1.2,0
+Airport Terminal 1,Red,25.2484,55.3445,1.0,0
+GGICO,Red,25.2541,55.3396,0.6,0
+Deira City Centre,Red,25.2547,55.3300,1.4,0
+Union,Red|Green,25.2663,55.3146,1.8,0
+BurJuman,Red|Green,25.2546,55.3037,1.8,0
+ADCB,Red,25.2446,55.2985,0.8,0
+Max,Red,25.2334,55.2919,0.7,0
+World Trade Centre,Red,25.2251,55.2852,1.0,1
+Emirates Towers,Red,25.2175,55.2797,1.1,1
+Financial Centre,Red,25.2113,55.2754,1.3,1
+Burj Khalifa/Dubai Mall,Red,25.2014,55.2696,1.7,1
+Business Bay,Red,25.1912,55.2601,1.3,1
+Onpassive,Red,25.1554,55.2283,0.7,0
+Equiti,Red,25.1414,55.2196,0.6,0
+Mall of the Emirates,Red,25.1212,55.2003,1.5,0
+Mashreq,Red,25.1150,55.1907,0.8,0
+Dubai Internet City,Red,25.1018,55.1735,1.2,0
+Sobha Realty,Red,25.0892,55.1555,0.8,0
+DMCC,Red,25.0710,55.1385,1.1,0
+UAE Exchange,Red,24.9775,55.0912,0.9,0
+Etisalat,Green,25.2546,55.4017,0.8,0
+Al Qusais,Green,25.2629,55.3877,0.8,0
+Al Nahda,Green,25.2726,55.3693,0.8,0
+Abu Hail,Green,25.2754,55.3466,0.6,0
+Salah Al Din,Green,25.2700,55.3255,0.8,0
+Baniyas Square,Green,25.2694,55.3087,1.0,0
+Al Ras,Green,25.2683,55.2940,0.7,0
+Al Ghubaiba,Green,25.2647,55.2894,0.9,0
+Sharaf DG,Green,25.2585,55.2973,0.7,0
+Oud Metha,Green,25.2420,55.3165,0.7,0
+Dubai Healthcare City,Green,25.2306,55.3236,0.7,0
+Al Jadaf,Green,25.2252,55.3335,0.6,0
+Creek,Green,25.2192,55.3389,0.6,0
