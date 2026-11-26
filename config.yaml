@@ -1,0 +1,81 @@
+# Analysis plan, fixed BEFORE any results were looked at.
+#
+# This file is committed on its own, before any analysis code is run, so the
+# git history shows the windows and tests were not chosen after seeing results.
+# Dates come from data/events.csv.
+
+treatment_date: 2025-01-31          # Salik variable pricing starts
+
+# Data cleaning decided from the data checks (results/data_checks.md),
+# not from any outcome.
+cleaning:
+  station_aliases:                  # rename -> canonical name
+    Sharaf DG Metro: Sharaf DG
+  exclude_dates:
+    - 2024-10-15                    # Red Line south outage (disruption in events.csv)
+
+windows:
+  main:
+    # After the late-2024 gates opened (24 Nov) plus a one-week settling buffer,
+    # up to the day before Ramadan 2025 starts (1 Mar). Avoids both confounders.
+    start: 2024-12-01
+    end: 2025-02-28
+  long:
+    # Full year, with Ramadan, holiday, school-holiday and new-gate controls.
+    start: 2024-07-01
+    end: 2025-06-30
+    controls: [new_gate_post, ramadan_peak_shift]
+  pre_parking:
+    # Stops before the variable parking tariff (4 Apr 2025); includes Ramadan.
+    start: 2024-12-01
+    end: 2025-04-03
+    controls: [ramadan_peak_shift]
+
+outcome:
+  unit: od_pair x date x period
+  periods:
+    peak: priced weekday peak (Mon-Sat 06-10 and 16-20; Ramadan 09-17)
+    offpeak: all other hours
+  transform: log(trips + 1)
+
+headline:
+  # Pre-specified headline estimate:
+  model: did                       # toll-substituting vs control pairs,
+  window: main                     # priced-peak trips, main window
+  fixed_effects: [od_pair, date]
+  cluster: od_pair
+  report: percent change = exp(beta) - 1, with 95% CI
+
+event_study:
+  bin: week                        # weekly leads and lags relative to treatment
+  reference_week: -1
+  pretrend_test_p_min: 0.10        # pre-period coefficients jointly not significant
+
+triple_difference:
+  window: main
+  terms: toll_substituting x priced_peak x post
+  fixed_effects: [od_pair^slot, date^slot, od_pair^post]
+  cluster: od_pair
+
+its:
+  series: total daily trips (log)
+  window: long
+  terms: [level_shift, slope_change, day_of_week, holiday, ramadan, school_holiday]
+  hac_lags: 7                      # Newey-West
+
+counterfactual:
+  series: daily priced-peak trips on toll-substituting pairs (log)
+  predictors: [control-pair priced-peak trips (log), control-pair off-peak trips (log),
+               day_of_week, holiday, school_holiday]
+  train: {start: 2024-07-01, end: 2024-12-18}
+  holdout: {start: 2024-12-19, end: 2025-01-30}   # last 6 pre-period weeks
+  accuracy_bar_mape: 0.15          # use for the counterfactual only if MAPE <= 15%
+
+placebo:
+  fake_date:
+    date: 2025-01-06               # inside the main-window pre-period
+    window: {start: 2024-12-01, end: 2025-01-30}
+  fake_outcome:
+    description: weekday late-evening (20:00-23:59) off-peak trips, toll vs control
+    window: main
+  significance: 0.05               # placebo passes if p > 0.05
