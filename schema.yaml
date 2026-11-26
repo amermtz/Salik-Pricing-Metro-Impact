@@ -1,0 +1,28 @@
+# Column mapping for the raw RTA metro ridership files.
+#
+# FILL THIS IN after inspecting a real file:
+#   python scripts/download_and_aggregate.py inspect <path-to-one-raw-file>
+#
+# Use either `timestamp` (one datetime column) OR `date` + `time` (two columns).
+# Leave the unused option as null.
+
+columns:
+  origin: null          # origin / entry station name or id
+  destination: null     # destination / exit station name or id
+  timestamp: null       # single datetime column, e.g. "txn_datetime"
+  date: null            # or: separate date column
+  time: null            # or: separate time column
+
+# Optional SQL filter applied to raw rows before aggregation, written in DuckDB
+# SQL against the raw column names. All raw columns are read as text, so cast
+# numbers explicitly, e.g. "CAST(amount AS DOUBLE) > 0". Use it to keep metro trips only if the file
+# also contains tram/bus/other transaction types. Example:
+#   row_filter: "line_name IN ('Red Line', 'Green Line')"
+row_filter: null
+
+# Date/time formats (DuckDB strptime codes, e.g. "%Y-%m-%d", "%H:%M:%S",
+# "%d/%m/%Y %H:%M"). Set them whenever the format is not ISO (YYYY-MM-DD).
+# Getting dd/mm vs mm/dd wrong silently corrupts the data, so always set them.
+date_format: null
+time_format: null
+timestamp_format: null

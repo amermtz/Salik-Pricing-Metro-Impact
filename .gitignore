@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Raw data is never committed (very large; deleted after aggregation)
+data/raw/
+
+# Processed parquet: commit only if total < 20 MB (see README). Ignored by default.
+data/processed/od_hourly/
+
+# Secrets
+.env
+
+# Editor / tooling
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
