@@ -12,6 +12,9 @@ data/raw/
 # Processed parquet: commit only if total < 20 MB (see README). Ignored by default.
 data/processed/od_hourly/
 
+# Pipeline demo output (see README)
+demo_out/
+
 # Secrets
 .env
 

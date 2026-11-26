@@ -10,4 +10,6 @@ folium>=0.17
 pyyaml>=6.0
 requests>=2.32
 tabulate>=0.9
+markdown>=3.7
+xhtml2pdf>=0.2.16
 pytest>=8.3

@@ -2,38 +2,28 @@
 
 _Last updated: 2026-11-26_
 
-## Current stage
-**Stage 3 done: analysis plan written in `config.yaml`.** It must be committed
-on its own before Stage 4 starts.
+## Status: all 5 stages done (simulation study)
 
-## Key decision
-Real 2025 Metro ridership is not available on Dubai Pulse, so the project is a
-**simulation study**: synthetic data with a planted +5% effect, and a test of
-whether the methods recover it. This is stated in the README, the memo and the
-CV bullet.
+Real 2025 Metro ridership is not available, so this is a **simulation study**
+with a planted +5% effect. This is stated in the README, the memo and the CV bullet.
+
+## Results
+- Headline DiD: **+5.2% (95% CI 4.8 to 5.5)**; truth +5.0% ✅
+- Triple difference: +4.8% (4.3 to 5.3) ✅
+- Pre-trends p = 0.98 ✅, placebos p = 0.51 and 0.69 ✅, counterfactual accuracy 99.3% ✅
+- Counterfactual estimate +5.7% misses the truth (left out the Nov 2024 gates). Reported honestly; the exploratory fix gives +5.3%
+- ITS can't detect the effect (it is only 0.86% of all trips)
 
 ## Done
-- [x] Stage 1: repo, resumable pipeline, data checks, simulator
-  - 365 simulated days, 134.4M trips, 8.5 MB of parquet
-  - The pipeline reproduces the simulator's counts exactly on a trip-level raw file
-  - The checks find all planted problems: missing day, outage, station rename, holidays
-- [x] Stage 2: OD labels (674 of 1,260 pairs toll-substituting), folium and PNG maps
-- [x] Stage 3: `config.yaml` (windows, models, thresholds, headline)
-- [x] Tests: 15 passing
+- [x] 1. Repo, pipeline, data checks, simulator
+- [x] 2. OD labels and review map (Mohammed's review optional/pending)
+- [x] 3. `config.yaml` committed before analysis (commit d49e0e3)
+- [x] 4. Analysis: ITS, DiD + event study, triple difference, counterfactual, placebos, recovery vs truth
+- [x] 5. Memo (2-page PDF), README with headline and CI, NOTES.md
+- [x] Automation: `run_all.py` (about 40 s end to end) and a GitHub Actions workflow
+- [x] 19 tests passing
 
-## Next steps
-1. YOU: commit Stages 1–2, then commit `config.yaml` on its own.
-2. Optional: Mohammed reviews `report/figures/od_map.html`.
-3. Stage 4: ITS, DiD + event study, triple difference, counterfactual, placebos.
-4. Stage 5: memo, figures, final README with the recovered estimate.
-
-## Open review items
-- Long diagonal pairs (e.g. UAE Exchange to Etisalat/Centrepoint) are labelled control.
-  This is plausible, since the car route can avoid gates, but needs the map review.
-
-## Stages
-- [x] 1. Repo, data and checks
-- [x] 2. Label OD pairs (review pending)
-- [x] 3. Fix windows in `config.yaml` (commit pending)
-- [ ] 4. Analysis
-- [ ] 5. Memo and README
+## Possible next steps
+- Mohammed reviews the map; if labels change, rerun `python run_all.py`
+- If real Metro OD data becomes available: fill in `schema.yaml`, aggregate, then `python run_all.py --skip-sim`
+- Sensitivity: rerun with other seeds or effect sizes (e.g. 0% or 2%) to show the false-positive rate and power

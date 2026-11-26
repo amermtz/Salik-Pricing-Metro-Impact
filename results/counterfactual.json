@@ -1,0 +1,22 @@
+{
+  "holdout_mape": 0.006889039067036929,
+  "accuracy_pct": 99.3110960932963,
+  "accuracy_bar_mape": 0.15,
+  "passed": true,
+  "n_train_days": 143,
+  "n_holdout_days": 36,
+  "effect_pct": 5.7432097992708275,
+  "ci_pct": [
+    5.415753801126906,
+    6.071682983431584
+  ],
+  "n_post_days": 25,
+  "exploratory_with_new_gate_term": {
+    "effect_pct": 5.30156971666128,
+    "ci_pct": [
+      4.939840530507991,
+      5.664545788682259
+    ],
+    "n_post_days": 25
+  }
+}

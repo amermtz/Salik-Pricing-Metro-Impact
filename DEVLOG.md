@@ -1,5 +1,49 @@
 # Dev log
 
+## 2026-11-26: Stages 4–5, analysis, memo, automation
+
+The plan (`config.yaml`) was committed in d49e0e3 before any of this ran.
+
+**Analysis** (`src/`): panel builder (OD × date, priced-peak / off-peak /
+late-evening slots, aliases and excluded dates from config), DiD, event study
+with a cluster-robust joint pre-trend F-test, triple difference, ITS (HAC),
+forecast counterfactual, placebos. `src/recovery.py` is the only step that reads
+`simulation.yaml`. It runs last and compares every estimate with the truth.
+
+**Results** (truth: +5.0%)
+- Headline DiD +5.16% (4.81 to 5.51) ✅. Triple difference +4.80% (4.34 to 5.27) ✅.
+- Full year with controls +4.84% ✅. Pre-parking window +5.14% ✅.
+- Pre-trends p = 0.976. Placebos p = 0.511 and 0.691. All pass.
+- **Counterfactual: accuracy 99.3% (passes the bar), but the estimate is +5.74%
+  (5.42 to 6.07), which misses the truth.** Cause: the pre-registered predictors
+  have no term for the 24 Nov gate openings, and most of the training data comes
+  from before them, so the model under-predicts toll trips afterwards. This is
+  reported as it came out. An exploratory run with a gate step gives +5.30%
+  (4.94 to 5.66) and confirms the explanation.
+- ITS: −0.12% (−2.16 to 1.96). The true effect on all trips is 0.86%, below what
+  one aggregate series can detect.
+- Naive toll-peak before/after over 4 weeks: +5.17%. That is right by luck,
+  because the confounders were quiet around late January. Over the whole year:
+  +8.47%. Kept in the memo, since it shows why a control group is needed.
+- Exploratory: full year without the new-gate control gives +6.09%, missing the truth.
+
+**Event study note:** week +4 is a single day (28 Feb, the end of the main
+window), so its interval is wider.
+
+**Fixes along the way**
+- DuckDB 2.0 needs results fully fetched before reusing a connection
+  (`fetchall` instead of `fetchone`).
+- numpy ints are not JSON-serialisable; cast them explicitly.
+- Memo wording: "all checks pass" was too broad while the counterfactual missed
+  the truth. The memo now says exactly which estimates recover the effect.
+
+**Memo**: `report/build_memo.py` fills every number from `results/*.json` and
+exports a 2-page PDF (xhtml2pdf, since pandoc isn't installed).
+
+**Automation**: `run_all.py` runs every step (about 40 s) and can resume with
+`--from`. `.github/workflows/run-study.yml` runs the tests and the full study
+on every push and uploads results and the report.
+
 ## 2026-11-26: Switch to a simulation study; Stages 1–3
 
 **Why:** Dubai Pulse has no 2025 Metro ridership, so the real study cannot run.

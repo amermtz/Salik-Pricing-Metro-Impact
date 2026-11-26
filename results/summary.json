@@ -1,0 +1,161 @@
+{
+  "truth": {
+    "toll_peak_pct": 5.0,
+    "all_trips_pct": 0.8553205797700586
+  },
+  "estimates": [
+    {
+      "estimate": "(b) DiD, main window: HEADLINE",
+      "type": "pre-registered",
+      "pct": 5.1632825537603075,
+      "ci_lo": 4.8135627343051945,
+      "ci_hi": 5.514169244648172,
+      "truth_pct": 5.0,
+      "error_pp": 0.16328255376030754,
+      "ci_covers_truth": true
+    },
+    {
+      "estimate": "(c) Triple difference, main window",
+      "type": "pre-registered",
+      "pct": 4.8034593585623755,
+      "ci_lo": 4.339098623457225,
+      "ci_hi": 5.269886729235136,
+      "truth_pct": 5.0,
+      "error_pp": -0.1965406414376245,
+      "ci_covers_truth": true
+    },
+    {
+      "estimate": "DiD, long window + controls",
+      "type": "pre-registered",
+      "pct": 4.838984629126215,
+      "ci_lo": 4.582100402962848,
+      "ci_hi": 5.096499838081067,
+      "truth_pct": 5.0,
+      "error_pp": -0.16101537087378492,
+      "ci_covers_truth": true
+    },
+    {
+      "estimate": "DiD, pre-parking window",
+      "type": "pre-registered",
+      "pct": 5.143237013907882,
+      "ci_lo": 4.8037677971735135,
+      "ci_hi": 5.4838058032199575,
+      "truth_pct": 5.0,
+      "error_pp": 0.14323701390788202,
+      "ci_covers_truth": true
+    },
+    {
+      "estimate": "(d) Counterfactual forecast",
+      "type": "pre-registered",
+      "pct": 5.7432097992708275,
+      "ci_lo": 5.415753801126906,
+      "ci_hi": 6.071682983431584,
+      "truth_pct": 5.0,
+      "error_pp": 0.7432097992708275,
+      "ci_covers_truth": false
+    },
+    {
+      "estimate": "(a) ITS, all trips",
+      "type": "pre-registered",
+      "pct": -0.12207716738835082,
+      "ci_lo": -2.160699868163126,
+      "ci_hi": 1.9590231728473988,
+      "truth_pct": 0.8553205797700586,
+      "error_pp": -0.9773977471584094,
+      "ci_covers_truth": true
+    },
+    {
+      "estimate": "Placebo: fake date",
+      "type": "pre-registered",
+      "pct": 0.13682418017633882,
+      "ci_lo": -0.2702251561553212,
+      "ci_hi": 0.5455348975997287,
+      "truth_pct": 0.0,
+      "error_pp": 0.13682418017633882,
+      "ci_covers_truth": true
+    },
+    {
+      "estimate": "Placebo: late-evening outcome",
+      "type": "pre-registered",
+      "pct": 0.11317393762696687,
+      "ci_lo": -0.44332710393372105,
+      "ci_hi": 0.6727857039663087,
+      "truth_pct": 0.0,
+      "error_pp": 0.11317393762696687,
+      "ci_covers_truth": true
+    },
+    {
+      "estimate": "DiD, long window, NO controls",
+      "type": "exploratory",
+      "pct": 6.093345515833455,
+      "ci_lo": 5.85009173322832,
+      "ci_hi": 6.337158319236616,
+      "truth_pct": 5.0,
+      "error_pp": 1.0933455158334553,
+      "ci_covers_truth": false
+    },
+    {
+      "estimate": "DiD, long window + parking control",
+      "type": "exploratory",
+      "pct": 5.105664750666732,
+      "ci_lo": 4.877190992934803,
+      "ci_hi": 5.334636235859492,
+      "truth_pct": 5.0,
+      "error_pp": 0.10566475066673231,
+      "ci_covers_truth": true
+    },
+    {
+      "estimate": "Counterfactual + new-gate term",
+      "type": "exploratory",
+      "pct": 5.30156971666128,
+      "ci_lo": 4.939840530507991,
+      "ci_hi": 5.664545788682259,
+      "truth_pct": 5.0,
+      "error_pp": 0.3015697166612803,
+      "ci_covers_truth": true
+    }
+  ],
+  "naive": [
+    {
+      "estimate": "Naive: toll-peak trips, 4 weeks before vs after",
+      "pct": 5.173020153348151,
+      "truth_pct": 5.0,
+      "error_pp": 0.17302015334815124
+    },
+    {
+      "estimate": "Naive: toll-peak trips, whole pre vs whole post",
+      "pct": 8.474812195072868,
+      "truth_pct": 5.0,
+      "error_pp": 3.474812195072868
+    },
+    {
+      "estimate": "Naive: all trips, whole pre vs whole post",
+      "pct": 3.156584482209457,
+      "truth_pct": 0.8553205797700586,
+      "error_pp": 2.3012639024393984
+    }
+  ],
+  "checks": {
+    "counterfactual_accuracy": {
+      "value": 99.3110960932963,
+      "target": ">= 85%",
+      "passed": true
+    },
+    "event_study_pretrend_p": {
+      "value": 0.9761807506435587,
+      "target": "> 0.10",
+      "passed": true
+    },
+    "placebo_fake_date_p": {
+      "value": 0.5106986487605023,
+      "target": "> 0.05",
+      "passed": true
+    },
+    "placebo_fake_outcome_p": {
+      "value": 0.6909075182830515,
+      "target": "> 0.05",
+      "passed": true
+    }
+  },
+  "all_checks_passed": true
+}
